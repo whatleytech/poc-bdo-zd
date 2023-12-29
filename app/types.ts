@@ -5,13 +5,34 @@ export interface Provider {
   title: string;
   full_name: string;
   gender_identity: string;
-  specialties: string[];
+  specialties: Specialty[];
   default_visit_reason_id: string;
   locations: Location[];
   virtual_locations: VirtualLocation[];
   practice: Practice;
   provider_photo_url: string;
   languages: string[];
+}
+
+export enum Specialty {
+  All = "All",
+  Pediatrics = "Pediatrics",
+  FamilyMedicine = "Family Medicine",
+  InternalMedicine = "Internal Medicine",
+  Cardiology = "Cardiology",
+  Dermatology = "Dermatology",
+  AllergyImmunology = "Allergy and Immunology",
+  Ophthalmology = "Ophthalmology",
+  ENT = "ENT",
+  Psychiatry = "Psychiatry",
+  Psychology = "Psychology",
+  Orthopedics = "Orthopedics",
+  SportsMedicine = "Sports Medicine",
+  Obstetrics = "Obstetrics",
+  Gynecology = "Gynecology",
+  Neurology = "Neurology",
+  Urology = "Urology",
+  Nephrology = "Nephrology",
 }
 
 export interface Location {
