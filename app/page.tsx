@@ -27,7 +27,7 @@ export default function Home() {
             <SearchItem
               full_name={provider.full_name}
               provider_photo_url={provider.provider_photo_url}
-              locations={provider.locations}
+              location={provider.locations[0]}
             />
           </div>
         ))}

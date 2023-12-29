@@ -1,16 +1,20 @@
 import React from "react";
 import Image from "next/image";
-import { Provider } from "../types";
+import { Provider, Location } from "../types";
 
 const SearchItem: React.FC<
-  Pick<Provider, "provider_photo_url" | "full_name" | "locations">
-> = ({ provider_photo_url: photoUrl, full_name: fullName, locations }) => {
-  const locationName = locations[0].location_name;
-  const locationAddress = locations[0].address1;
-  const locationCity = locations[0].city;
-  const locationState = locations[0].state;
-  const locationZipCode = locations[0].zip_code;
-
+  Pick<Provider, "provider_photo_url" | "full_name"> & { location: Location }
+> = ({
+  provider_photo_url: photoUrl,
+  full_name: fullName,
+  location: {
+    location_name: locationName,
+    address1: address,
+    city,
+    state,
+    zip_code: zip,
+  },
+}) => {
   return (
     <div
       className="search-item full-width"
@@ -36,9 +40,9 @@ const SearchItem: React.FC<
             />
           </div>
           <address>
-            <p>{locationAddress}</p>
+            <p>{address}</p>
             <p>
-              {locationCity}, {locationState} {locationZipCode}
+              {city}, {state} {zip}
             </p>
           </address>
         </div>
