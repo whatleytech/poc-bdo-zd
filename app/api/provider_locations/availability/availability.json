@@ -25,6 +25,31 @@
           "visit_reason_id": "pc_FRO-18leckytNKtruw5dLR"
         }
       ]
+    },
+    {
+      "provider_location_id": "pr_123abc-456def_789xyz|lo_123abc-456def_789xyz",
+      "first_availability": {
+        "start_time": "2023-12-28T15:21:53.264Z",
+        "visit_reason_id": "pc_FRO-18leckytNKtruw5dLR"
+      },
+      "timeslots": [
+        {
+          "start_time": "2023-12-28T15:21:53.264Z",
+          "visit_reason_id": "pc_FRO-18leckytNKtruw5dLR"
+        },
+        {
+          "start_time": "2023-12-28T17:21:53.264Z",
+          "visit_reason_id": "pc_FRO-18leckytNKtruw5dLR"
+        },
+        {
+          "start_time": "2023-12-28T17:21:53.264Z",
+          "visit_reason_id": "pc_FRO-18leckytNKtruw5dLR"
+        },
+        {
+          "start_time": "2024-01-03T17:21:53.264Z",
+          "visit_reason_id": "pc_FRO-18leckytNKtruw5dLR"
+        }
+      ]
     }
   ]
 }

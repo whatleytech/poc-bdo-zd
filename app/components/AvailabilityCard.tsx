@@ -26,7 +26,7 @@ const AvailabilityCard: React.FC<AvailabilityCardProps> = ({
     <div
       className={`flex flex-col rounded-lg p-2.5 min-w-max ${
         availabilityTimeslotsForDate > 0
-          ? "bg-yellow-200 hover:bg-blue-200"
+          ? "bg-yellow-200 hover:bg-blue-200 cursor-pointer"
           : "bg-gray-200"
       } `}
       key={date.toString()}

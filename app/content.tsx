@@ -7,6 +7,7 @@ import {
   Availability,
   AvailabilityResponse,
   Provider,
+  ProviderLocation,
   ProviderLocationsResponse,
   Specialties,
 } from "./types";
@@ -16,8 +17,7 @@ interface Props {
 }
 
 const PageContent: React.FC<Props> = ({ specialties }) => {
-  const [searchResults, setSearchResults] =
-    useState<ProviderLocationsResponse>();
+  const [searchResults, setSearchResults] = useState<ProviderLocation[]>([]);
   const [providerAvailability, setProviderAvailability] =
     useState<AvailabilityResponse>();
 
@@ -26,6 +26,9 @@ const PageContent: React.FC<Props> = ({ specialties }) => {
       "/api/provider_locations",
       window.location.origin
     );
+    if (zip) providerLocationsUrl.searchParams.append("zip", zip);
+    if (specialty)
+      providerLocationsUrl.searchParams.append("specialty", specialty);
     const providerLocationsAvailabilityUrl = new URL(
       "/api/provider_locations/availability",
       window.location.origin
@@ -45,22 +48,21 @@ const PageContent: React.FC<Props> = ({ specialties }) => {
   return (
     <div className="z-10 max-w-5xl w-full items-center justify-center font-mono text-sm lg:flex flex-col">
       <SearchBar onSearch={handleSearch} specialties={specialties} />
-      {searchResults?.data.provider_locations.map(
-        ({ provider, location, provider_location_id }) => (
-          <div className="w-full flex pt-8" key={provider.full_name}>
-            <SearchItem
-              provider={provider}
-              location={location}
-              availabilityTimeslots={
-                providerAvailability?.data?.find(
-                  ({ provider_location_id: availabilityLocationId }) =>
-                    availabilityLocationId === provider_location_id
-                )?.timeslots ?? []
-              }
-            />
-          </div>
-        )
-      )}
+      <h1 className="font-bold text-lg">{searchResults.length} providers</h1>
+      {searchResults?.map(({ provider, location, provider_location_id }) => (
+        <div className="w-full flex pt-8" key={provider.full_name}>
+          <SearchItem
+            provider={provider}
+            location={location}
+            availabilityTimeslots={
+              providerAvailability?.data?.find(
+                ({ provider_location_id: availabilityLocationId }) =>
+                  availabilityLocationId === provider_location_id
+              )?.timeslots ?? []
+            }
+          />
+        </div>
+      ))}
     </div>
   );
 };

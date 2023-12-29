@@ -3,7 +3,7 @@
   "page": 1,
   "page_size": 10,
   "total_count": 100,
-  "next_url": "/api/provider_locations?page=2",
+  "next_url": "/api/provider_locations",
   "data": {
     "search_parameters": {
       "specialty_id": "sp_153",
