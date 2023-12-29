@@ -38,7 +38,7 @@
           "practice": {
             "practice_name": "XYZ Medical Group"
           },
-          "provider_photo_url": "https://example.com/photo.jpg",
+          "provider_photo_url": "/woman.png",
           "languages": ["English", "French"]
         },
         {
@@ -75,7 +75,7 @@
           "practice": {
             "practice_name": "123 Medical Group"
           },
-          "provider_photo_url": "https://example.com/photo.jpg",
+          "provider_photo_url": "/man.png",
           "languages": ["English", "German"]
         },
         {
@@ -112,7 +112,7 @@
           "practice": {
             "practice_name": "456 Medical Group"
           },
-          "provider_photo_url": "https://example.com/photo.jpg",
+          "provider_photo_url": "/woman.png",
           "languages": ["English", "Italian"]
         },
         {
@@ -149,7 +149,7 @@
           "practice": {
             "practice_name": "ABC Medical Group"
           },
-          "provider_photo_url": "https://example.com/photo.jpg",
+          "provider_photo_url": "/man.png",
           "languages": ["English", "Spanish"]
         }
       ]
