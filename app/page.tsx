@@ -8,8 +8,11 @@ import { Provider, Specialty } from "./types";
 export default function Home() {
   const [searchResults, setSearchResults] = useState<Provider[]>([]);
 
-  const handleSearch = (searchTerm: string, specialty: Specialty) => {
-    fetch(`/api/providers?specialty=${encodeURIComponent(specialty)}`)
+  const handleSearch = (zip: string, specialty: Specialty) => {
+    const url = new URL("/api/providers", window.location.origin);
+    url.searchParams.append("specialty", specialty.toLowerCase());
+    if (zip) url.searchParams.append("zip", zip);
+    fetch(url.toString())
       .then((response) => response.json())
       .then((data) => setSearchResults(data))
       .catch((error) => console.error(error));

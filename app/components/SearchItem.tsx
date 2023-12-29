@@ -11,8 +11,6 @@ const SearchItem: React.FC<
   const locationState = locations[0].state;
   const locationZipCode = locations[0].zip_code;
 
-  console.log("Props:", { photoUrl, fullName, locations });
-
   return (
     <div
       className="search-item full-width"
