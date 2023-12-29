@@ -1,0 +1,158 @@
+{
+  "request_id": "string",
+  "data": [
+    {
+      "npi": "4f5g6h7i8j9k",
+      "providers": [
+        {
+          "npi": "4f5g6h7i8j9k",
+          "first_name": "Emily",
+          "last_name": "Smith",
+          "title": "Dr.",
+          "full_name": "Emily Smith",
+          "gender_identity": "Female",
+          "specialties": ["Pediatrics", "Family Medicine"],
+          "default_visit_reason_id": "pc_FRO-18leckytNKtruw5dLR",
+          "locations": [
+            {
+              "provider_location_id": "pr_abc123-def456_wxyz7890|lo_abc123-def456_wxyz7890",
+              "accepts_patient_insurance": "accepted",
+              "address1": "456 Elm St",
+              "address2": "Suite 2C",
+              "city": "New York",
+              "state": "NY",
+              "zip_code": "10002",
+              "latitude": 40.7128,
+              "longitude": -74.006,
+              "location_name": "Secondary Office"
+            }
+          ],
+          "virtual_locations": [
+            {
+              "provider_location_id": "pr_abc123-def456_wxyz7890|lo_abc123-def456_wxyz7890",
+              "accepts_patient_insurance": "accepted",
+              "state": "NY",
+              "location_name": "Virtual Office"
+            }
+          ],
+          "practice": {
+            "practice_name": "XYZ Medical Group"
+          },
+          "provider_photo_url": "https://example.com/photo.jpg",
+          "languages": ["English", "French"]
+        },
+        {
+          "npi": "4f5g6h7i8j9k",
+          "first_name": "Michael",
+          "last_name": "Johnson",
+          "title": "Dr.",
+          "full_name": "Michael Johnson",
+          "gender_identity": "Male",
+          "specialties": ["Orthopedics", "Sports Medicine"],
+          "default_visit_reason_id": "pc_FRO-18leckytNKtruw5dLR",
+          "locations": [
+            {
+              "provider_location_id": "pr_abc123-def456_wxyz7890|lo_abc123-def456_wxyz7890",
+              "accepts_patient_insurance": "accepted",
+              "address1": "789 Oak St",
+              "address2": "Suite 3D",
+              "city": "New York",
+              "state": "NY",
+              "zip_code": "10003",
+              "latitude": 40.7128,
+              "longitude": -74.006,
+              "location_name": "Tertiary Office"
+            }
+          ],
+          "virtual_locations": [
+            {
+              "provider_location_id": "pr_abc123-def456_wxyz7890|lo_abc123-def456_wxyz7890",
+              "accepts_patient_insurance": "accepted",
+              "state": "NY",
+              "location_name": "Virtual Office"
+            }
+          ],
+          "practice": {
+            "practice_name": "123 Medical Group"
+          },
+          "provider_photo_url": "https://example.com/photo.jpg",
+          "languages": ["English", "German"]
+        },
+        {
+          "npi": "4f5g6h7i8j9k",
+          "first_name": "Sophia",
+          "last_name": "Brown",
+          "title": "Dr.",
+          "full_name": "Sophia Brown",
+          "gender_identity": "Female",
+          "specialties": ["Obstetrics", "Gynecology"],
+          "default_visit_reason_id": "pc_FRO-18leckytNKtruw5dLR",
+          "locations": [
+            {
+              "provider_location_id": "pr_abc123-def456_wxyz7890|lo_abc123-def456_wxyz7890",
+              "accepts_patient_insurance": "accepted",
+              "address1": "987 Pine St",
+              "address2": "Suite 4E",
+              "city": "New York",
+              "state": "NY",
+              "zip_code": "10004",
+              "latitude": 40.7128,
+              "longitude": -74.006,
+              "location_name": "Quaternary Office"
+            }
+          ],
+          "virtual_locations": [
+            {
+              "provider_location_id": "pr_abc123-def456_wxyz7890|lo_abc123-def456_wxyz7890",
+              "accepts_patient_insurance": "accepted",
+              "state": "NY",
+              "location_name": "Virtual Office"
+            }
+          ],
+          "practice": {
+            "practice_name": "456 Medical Group"
+          },
+          "provider_photo_url": "https://example.com/photo.jpg",
+          "languages": ["English", "Italian"]
+        },
+        {
+          "npi": "4f5g6h7i8j9k",
+          "first_name": "John",
+          "last_name": "Doe",
+          "title": "Dr.",
+          "full_name": "John Doe",
+          "gender_identity": "Male",
+          "specialties": ["Cardiology", "Dermatology", "Neurology"],
+          "default_visit_reason_id": "pc_FRO-18leckytNKtruw5dLR",
+          "locations": [
+            {
+              "provider_location_id": "pr_abc123-def456_wxyz7890|lo_abc123-def456_wxyz7890",
+              "accepts_patient_insurance": "accepted",
+              "address1": "123 Main St",
+              "address2": "Apt 4B",
+              "city": "New York",
+              "state": "NY",
+              "zip_code": "10001",
+              "latitude": 40.7128,
+              "longitude": -74.006,
+              "location_name": "Main Office"
+            }
+          ],
+          "virtual_locations": [
+            {
+              "provider_location_id": "pr_abc123-def456_wxyz7890|lo_abc123-def456_wxyz7890",
+              "accepts_patient_insurance": "accepted",
+              "state": "NY",
+              "location_name": "Virtual Office"
+            }
+          ],
+          "practice": {
+            "practice_name": "ABC Medical Group"
+          },
+          "provider_photo_url": "https://example.com/photo.jpg",
+          "languages": ["English", "Spanish"]
+        }
+      ]
+    }
+  ]
+}
