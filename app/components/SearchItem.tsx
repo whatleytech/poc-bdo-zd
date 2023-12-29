@@ -26,12 +26,24 @@ const SearchItem: React.FC<
         height={100}
       />
       <div className="search-item__details">
-        <h3 className="search-item__name">{fullName}</h3>
-        <p className="search-item__location">{locationName}</p>
-        <p className="search-item__address">{locationAddress}</p>
-        <p className="search-item__address">
-          {locationCity}, {locationState} {locationZipCode}
-        </p>
+        <h1 className="font-bold pb-2 text-2xl">{fullName}</h1>
+        <p className="search-item__location text-lg">{locationName}</p>
+        <div className="flex">
+          <div className="pr-2">
+            <Image
+              src="/address_icon.jpeg"
+              alt="Address"
+              width={15}
+              height={15}
+            />
+          </div>
+          <address>
+            <p>{locationAddress}</p>
+            <p>
+              {locationCity}, {locationState} {locationZipCode}
+            </p>
+          </address>
+        </div>
       </div>
     </div>
   );
