@@ -1,0 +1,30 @@
+{
+  "request_id": "string",
+  "data": [
+    {
+      "provider_location_id": "pr_abc123-def456_wxyz7890|lo_abc123-def456_wxyz7890",
+      "first_availability": {
+        "start_time": "2023-12-27T15:21:53.264Z",
+        "visit_reason_id": "pc_FRO-18leckytNKtruw5dLR"
+      },
+      "timeslots": [
+        {
+          "start_time": "2023-12-27T15:21:53.264Z",
+          "visit_reason_id": "pc_FRO-18leckytNKtruw5dLR"
+        },
+        {
+          "start_time": "2023-12-27T17:21:53.264Z",
+          "visit_reason_id": "pc_FRO-18leckytNKtruw5dLR"
+        },
+        {
+          "start_time": "2023-12-30T17:21:53.264Z",
+          "visit_reason_id": "pc_FRO-18leckytNKtruw5dLR"
+        },
+        {
+          "start_time": "2023-12-31T17:21:53.264Z",
+          "visit_reason_id": "pc_FRO-18leckytNKtruw5dLR"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "request_id": "123456789",
+  "page": 1,
+  "page_size": 10,
+  "total_count": 100,
+  "next_url": "/api/provider_locations?page=2",
+  "data": {
+    "search_parameters": {
+      "specialty_id": "sp_153",
+      "visit_reason_id": "pc_FRO-18leckytNKtruw5dLR"
+    },
+    "provider_locations": [
+      {
+        "provider_location_id": "pr_abc123-def456_wxyz7890|lo_abc123-def456_wxyz7890",
+        "provider_location_type": "in_person_provider",
+        "accepts_patient_insurance": "accepted",
+        "first_availability_date_in_provider_local_time": "2022-08-15",
+        "provider": {
+          "npi": "1234567890",
+          "first_name": "John",
+          "last_name": "Doe",
+          "title": "MD",
+          "full_name": "John Doe, MD",
+          "gender_identity": "Male",
+          "specialties": ["Cardiologist"]
+        },
+        "location": {
+          "address1": "123 Main St",
+          "address2": "",
+          "city": "New York",
+          "state": "NY",
+          "zip_code": "10001",
+          "latitude": 40.7128,
+          "longitude": -74.006,
+          "location_name": "Main Street Clinic",
+          "distance_to_patient_mi": 2.5
+        },
+        "virtual_location": {
+          "state": "NY",
+          "location_name": "Virtual Clinic"
+        },
+        "practice": {
+          "practice_name": "ABC Medical Group"
+        }
+      }
+    ]
+  }
+}
