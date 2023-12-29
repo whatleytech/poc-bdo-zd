@@ -11,7 +11,7 @@
           "title": "Dr.",
           "full_name": "Emma Johnson",
           "gender_identity": "Female",
-          "specialties": ["Pediatrics", "Family Medicine"],
+          "specialties": ["Pediatrician", "Family Physician"],
           "default_visit_reason_id": "pc_FRO-18leckytNKtruw5dLR",
           "locations": [
             {
@@ -48,7 +48,7 @@
           "title": "Dr.",
           "full_name": "John Doe",
           "gender_identity": "Male",
-          "specialties": ["Internal Medicine", "Cardiology"],
+          "specialties": ["Internist - Resident", "Cardiologist"],
           "default_visit_reason_id": "pc_FRO-18leckytNKtruw5dLR",
           "locations": [
             {
@@ -85,7 +85,7 @@
           "title": "Dr.",
           "full_name": "Sarah Smith",
           "gender_identity": "Female",
-          "specialties": ["Dermatology", "Allergy and Immunology"],
+          "specialties": ["Dermatologist", "Allergist"],
           "default_visit_reason_id": "pc_FRO-18leckytNKtruw5dLR",
           "locations": [
             {
@@ -122,7 +122,7 @@
           "title": "Dr.",
           "full_name": "Michael Brown",
           "gender_identity": "Male",
-          "specialties": ["Ophthalmology", "ENT"],
+          "specialties": ["Ophthalmologist", "Ear, Nose & Throat Doctor"],
           "default_visit_reason_id": "pc_FRO-18leckytNKtruw5dLR",
           "locations": [
             {
@@ -159,7 +159,7 @@
           "title": "Dr.",
           "full_name": "Emily Wilson",
           "gender_identity": "Female",
-          "specialties": ["Psychiatry", "Psychology"],
+          "specialties": ["Psychiatrist", "Psychologist"],
           "default_visit_reason_id": "pc_FRO-18leckytNKtruw5dLR",
           "locations": [
             {
@@ -196,7 +196,7 @@
           "title": "Dr.",
           "full_name": "David Johnson",
           "gender_identity": "Male",
-          "specialties": ["Orthopedics", "Sports Medicine"],
+          "specialties": ["Orthopedic Surgeon", "Sports Medicine Specialist"],
           "default_visit_reason_id": "pc_FRO-18leckytNKtruw5dLR",
           "locations": [
             {
@@ -233,7 +233,7 @@
           "title": "Dr.",
           "full_name": "Sophia Brown",
           "gender_identity": "Female",
-          "specialties": ["Obstetrics", "Gynecology"],
+          "specialties": ["Obstetrician", "Gynecologist"],
           "default_visit_reason_id": "pc_FRO-18leckytNKtruw5dLR",
           "locations": [
             {
@@ -270,7 +270,7 @@
           "title": "Dr.",
           "full_name": "William Doe",
           "gender_identity": "Male",
-          "specialties": ["Cardiology", "Dermatology", "Neurology"],
+          "specialties": ["Cardiologist", "Dermatologist", "Neurologist"],
           "default_visit_reason_id": "pc_FRO-18leckytNKtruw5dLR",
           "locations": [
             {
@@ -307,7 +307,7 @@
           "title": "Dr.",
           "full_name": "Daniel Wilson",
           "gender_identity": "Male",
-          "specialties": ["Urology", "Nephrology"],
+          "specialties": ["Urologist", "Nephrologist"],
           "default_visit_reason_id": "pc_FRO-18leckytNKtruw5dLR",
           "locations": [
             {
@@ -344,7 +344,7 @@
           "title": "Dr.",
           "full_name": "Sophie Johnson",
           "gender_identity": "Female",
-          "specialties": ["Pediatrics", "Family Medicine"],
+          "specialties": ["Pediatrician", "Family Physician"],
           "default_visit_reason_id": "pc_FRO-18leckytNKtruw5dLR",
           "locations": [
             {
@@ -381,7 +381,7 @@
           "title": "Dr.",
           "full_name": "Olivia Brown",
           "gender_identity": "Female",
-          "specialties": ["Obstetrics", "Gynecology"],
+          "specialties": ["Obstetrician", "Gynecologist"],
           "default_visit_reason_id": "pc_FRO-18leckytNKtruw5dLR",
           "locations": [
             {
@@ -418,7 +418,7 @@
           "title": "Dr.",
           "full_name": "James Doe",
           "gender_identity": "Male",
-          "specialties": ["Cardiology", "Dermatology", "Neurology"],
+          "specialties": ["Cardiologist", "Dermatologist", "Neurologist"],
           "default_visit_reason_id": "pc_FRO-18leckytNKtruw5dLR",
           "locations": [
             {

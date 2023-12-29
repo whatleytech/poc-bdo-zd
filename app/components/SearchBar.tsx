@@ -1,15 +1,14 @@
 import React, { useState } from "react";
-import { Specialty } from "../types";
+import { Specialties, Specialty } from "../types";
 
 interface Props {
-  onSearch: (zip: string, specialty: Specialty) => void;
+  onSearch: (zip: string, specialty: string) => void;
+  specialties: Specialties;
 }
 
-const SearchBar: React.FC<Props> = ({ onSearch }) => {
+const SearchBar: React.FC<Props> = ({ onSearch, specialties }) => {
   const [inputZip, setInputZip] = useState("");
-  const [selectedSpecialty, setSelectedSpecialty] = useState<Specialty>(
-    Specialty.All
-  );
+  const [selectedSpecialty, setSelectedSpecialty] = useState<string>("");
 
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault();
@@ -18,7 +17,6 @@ const SearchBar: React.FC<Props> = ({ onSearch }) => {
       alert("Please enter a valid US zip code.");
       return;
     }
-
 
     onSearch(inputZip, selectedSpecialty);
   };
@@ -35,17 +33,18 @@ const SearchBar: React.FC<Props> = ({ onSearch }) => {
       />
       <select
         value={selectedSpecialty}
-        onChange={(event) =>
-          setSelectedSpecialty(event.target.value as Specialty)
-        }
+        onChange={(event) => setSelectedSpecialty(event.target.value)}
         className="border-2 border-gray-300 rounded-md"
         style={{ marginRight: "8px", height: "40px" }}
       >
-        {Object.values(Specialty).map((specialty) => (
-          <option key={specialty} value={specialty}>
-            {specialty}
-          </option>
-        ))}
+        <option key={"s0"}></option>
+        {specialties
+          .sort((a, b) => a.Name.localeCompare(b.Name))
+          .map((specialty) => (
+            <option key={specialty.SpecialtyId} value={specialty.Name}>
+              {specialty.Name}
+            </option>
+          ))}
       </select>
       <button
         type="submit"
