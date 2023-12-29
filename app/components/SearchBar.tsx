@@ -7,13 +7,13 @@ interface Props {
 
 const SearchBar: React.FC<Props> = ({ onSearch }) => {
   const [inputValue, setInputValue] = useState("");
-  const [selectedSpecialty, setSelectedSpecialty] = useState<Specialty | "">(
-    ""
+  const [selectedSpecialty, setSelectedSpecialty] = useState<Specialty>(
+    Specialty.All
   );
 
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault();
-    if (inputValue !== "" && selectedSpecialty !== "") {
+    if (inputValue !== "") {
       onSearch(inputValue, selectedSpecialty);
     }
   };
@@ -21,9 +21,9 @@ const SearchBar: React.FC<Props> = ({ onSearch }) => {
   return (
     <form onSubmit={handleSubmit} style={{ display: "flex" }}>
       <input
-        className="px-3 py-2 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out mb-4"
+        className="px-3 py-2 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out mb-4 border-2 border-gray-300 rounded-md"
         type="search"
-        placeholder="Address, City, State or Zip"
+        placeholder="Enter a zip code"
         value={inputValue}
         onChange={(event) => setInputValue(event.target.value)}
         style={{ marginRight: "8px", height: "40px" }}
@@ -33,6 +33,7 @@ const SearchBar: React.FC<Props> = ({ onSearch }) => {
         onChange={(event) =>
           setSelectedSpecialty(event.target.value as Specialty)
         }
+        className="border-2 border-gray-300 rounded-md"
         style={{ marginRight: "8px", height: "40px" }}
       >
         {Object.values(Specialty).map((specialty) => (
@@ -43,7 +44,7 @@ const SearchBar: React.FC<Props> = ({ onSearch }) => {
       </select>
       <button
         type="submit"
-        className="px-3 py-2 rounded-md bg-blue-500 text-white"
+        className="px-3 py-2 rounded-md bg-blue-500 text-white border-2 border-gray-300 rounded-md"
         style={{ height: "40px" }}
       >
         Submit
