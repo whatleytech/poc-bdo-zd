@@ -1,0 +1,1844 @@
+[
+  {
+    "SpecialtyId": "sp_98",
+    "Name": "Dentist",
+    "DefaultVisitReasonId": "pc_TlZW-r06U0W3pCsIGtSI5B",
+    "DefaultVisitReasonName": "Dental Consultation"
+  },
+  {
+    "SpecialtyId": "sp_99",
+    "Name": "Internist",
+    "DefaultVisitReasonId": "pc_FRO-18leckytNKtruw5dLR",
+    "DefaultVisitReasonName": "Illness"
+  },
+  {
+    "SpecialtyId": "sp_100",
+    "Name": "Pediatrician",
+    "DefaultVisitReasonId": "pc_z-XC40xg6Uq61dk7tWXPUB",
+    "DefaultVisitReasonName": "Pediatric Consultation"
+  },
+  {
+    "SpecialtyId": "sp_101",
+    "Name": "Dermatologist",
+    "DefaultVisitReasonId": "pc_-maCOVIWgUGq7_BH1h5nVB",
+    "DefaultVisitReasonName": "Dermatology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_102",
+    "Name": "Family Physician",
+    "DefaultVisitReasonId": "pc_FRO-18leckytNKtruw5dLR",
+    "DefaultVisitReasonName": "Illness"
+  },
+  {
+    "SpecialtyId": "sp_104",
+    "Name": "OB-GYN",
+    "DefaultVisitReasonId": "pc_jL57dJbLT0y5AGae2izsSR",
+    "DefaultVisitReasonName": "Annual Pap Smear / GYN Exam"
+  },
+  {
+    "SpecialtyId": "sp_105",
+    "Name": "Cardiologist",
+    "DefaultVisitReasonId": "pc_Vljnj0Fxrkq-bfZx5NuFVB",
+    "DefaultVisitReasonName": "Cardiology Consultation "
+  },
+  {
+    "SpecialtyId": "sp_106",
+    "Name": "Gastroenterologist",
+    "DefaultVisitReasonId": "pc_j0mh3-I3QEawzG6h08xrlR",
+    "DefaultVisitReasonName": "Gastroenterology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_107",
+    "Name": "Nephrologist",
+    "DefaultVisitReasonId": "pc_FigopXAepEa4PqiwkeV0jh",
+    "DefaultVisitReasonName": "Nephrology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_108",
+    "Name": "Pulmonologist",
+    "DefaultVisitReasonId": "pc_MmupBi07Wk26y4j6LCNcGB",
+    "DefaultVisitReasonName": "Pulmonology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_109",
+    "Name": "Rheumatologist",
+    "DefaultVisitReasonId": "pc_BKnsAepKBkGG_Zine11pdB",
+    "DefaultVisitReasonName": "Arthritis"
+  },
+  {
+    "SpecialtyId": "sp_110",
+    "Name": "Hematologist",
+    "DefaultVisitReasonId": "pc_zMSgQy4xfka7QiAof3NFLh",
+    "DefaultVisitReasonName": "Hematology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_111",
+    "Name": "Oncologist",
+    "DefaultVisitReasonId": "pc_bc3HWERQ-kyGCtLFshm1iR",
+    "DefaultVisitReasonName": "Oncology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_112",
+    "Name": "Cardiac Electrophysiologist",
+    "DefaultVisitReasonId": "pc_NUf_ioOIoka-veK6HCewMh",
+    "DefaultVisitReasonName": "ECG / EKG"
+  },
+  {
+    "SpecialtyId": "sp_113",
+    "Name": "Neurosurgeon",
+    "DefaultVisitReasonId": "pc_cy3425zVYEGm3N2I6xwoFR",
+    "DefaultVisitReasonName": "Neurosurgery Consultation"
+  },
+  {
+    "SpecialtyId": "sp_114",
+    "Name": "Infectious Disease Specialist",
+    "DefaultVisitReasonId": "pc_6930bt-I60ukmsonVnnj3h",
+    "DefaultVisitReasonName": "Infection Consultation"
+  },
+  {
+    "SpecialtyId": "sp_115",
+    "Name": "Nuclear Medicine Specialist",
+    "DefaultVisitReasonId": "pc_KrRgRx-THkm6YWpH3O0nyR",
+    "DefaultVisitReasonName": "PET / CT Scan Report"
+  },
+  {
+    "SpecialtyId": "sp_116",
+    "Name": "Ophthalmologist",
+    "DefaultVisitReasonId": "pc_YWAS2niyPE2v4zui4akrWB",
+    "DefaultVisitReasonName": "General Eye Consultation"
+  },
+  {
+    "SpecialtyId": "sp_117",
+    "Name": "Orthopedic Surgeon",
+    "DefaultVisitReasonId": "pc_T1T3MOA0kUuE201i1ZfIWR",
+    "DefaultVisitReasonName": "Orthopedic Consultation"
+  },
+  {
+    "SpecialtyId": "sp_118",
+    "Name": "Pathologist",
+    "DefaultVisitReasonId": "pc_wVlmOrTNfkmvFvOmnjAyOh",
+    "DefaultVisitReasonName": "Pathology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_120",
+    "Name": "Plastic Surgeon",
+    "DefaultVisitReasonId": "pc_FCBcRW5SFEOzhHRZTTvK5x",
+    "DefaultVisitReasonName": "Plastic Surgery Consultation"
+  },
+  {
+    "SpecialtyId": "sp_121",
+    "Name": "Podiatrist",
+    "DefaultVisitReasonId": "pc_dLx_aTKEDUyzsFch0FRmpx",
+    "DefaultVisitReasonName": "Foot Consultation"
+  },
+  {
+    "SpecialtyId": "sp_122",
+    "Name": "Psychiatrist",
+    "DefaultVisitReasonId": "pc_mLdGog6Fwkev_8amkyM4uB",
+    "DefaultVisitReasonName": "Psychiatry Consultation"
+  },
+  {
+    "SpecialtyId": "sp_123",
+    "Name": "Radiologist",
+    "DefaultVisitReasonId": "pc_14kCx1-3wUyHEdJ0ITyIUR",
+    "DefaultVisitReasonName": "X-ray"
+  },
+  {
+    "SpecialtyId": "sp_124",
+    "Name": "Radiation Oncologist",
+    "DefaultVisitReasonId": "pc_7ONizbJEUUG28s6iKZrhzx",
+    "DefaultVisitReasonName": "Radiation Oncology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_126",
+    "Name": "Urologist",
+    "DefaultVisitReasonId": "pc_DTxKUMQzPUSL5IqGVcDMhx",
+    "DefaultVisitReasonName": "Urology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_127",
+    "Name": "Endocrinologist",
+    "DefaultVisitReasonId": "pc_PpYZiRxIFECE0hJF-sfPeh",
+    "DefaultVisitReasonName": "Endocrinology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_128",
+    "Name": "Neurologist",
+    "DefaultVisitReasonId": "pc_QFRp0PMZ9ku7QkeT0F8O5h",
+    "DefaultVisitReasonName": "Neurology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_129",
+    "Name": "Sports Medicine Specialist",
+    "DefaultVisitReasonId": "pc_6EAgilerx0qjJHpTp_ik-x",
+    "DefaultVisitReasonName": "Sports Injury"
+  },
+  {
+    "SpecialtyId": "sp_130",
+    "Name": "Ear, Nose & Throat Doctor",
+    "DefaultVisitReasonId": "pc_6OZ_tCH8E0ipVtz40nv4gx",
+    "DefaultVisitReasonName": "ENT Consultation"
+  },
+  {
+    "SpecialtyId": "sp_132",
+    "Name": "Allergist",
+    "DefaultVisitReasonId": "pc_fgebPJsoZ0OEw98hapBL5x",
+    "DefaultVisitReasonName": "Allergy Consultation"
+  },
+  {
+    "SpecialtyId": "sp_133",
+    "Name": "Colorectal Surgeon",
+    "DefaultVisitReasonId": "pc_CWKfhzdHv0aMXIgSP_Kn3B",
+    "DefaultVisitReasonName": "Colon Cancer Screening"
+  },
+  {
+    "SpecialtyId": "sp_134",
+    "Name": "Endodontist",
+    "DefaultVisitReasonId": "pc_fsu-qCYl7064W9TZcQn0DB",
+    "DefaultVisitReasonName": "Root Canal"
+  },
+  {
+    "SpecialtyId": "sp_135",
+    "Name": "Orthodontist",
+    "DefaultVisitReasonId": "pc_pQHZ8-tjRUqjEiVc2B16zR",
+    "DefaultVisitReasonName": "Orthodontic Consultation"
+  },
+  {
+    "SpecialtyId": "sp_136",
+    "Name": "Periodontist",
+    "DefaultVisitReasonId": "pc_D12_FBb-0E2zvgSfkeLfUB",
+    "DefaultVisitReasonName": "Periodontist Consultation"
+  },
+  {
+    "SpecialtyId": "sp_137",
+    "Name": "Prosthodontist",
+    "DefaultVisitReasonId": "pc_bWwTFhNqIEyx26npLz8nFx",
+    "DefaultVisitReasonName": "Bridge"
+  },
+  {
+    "SpecialtyId": "sp_139",
+    "Name": "Pain Management Specialist",
+    "DefaultVisitReasonId": "pc_Wc5AAEjb8UKUK-ChS-hgHh",
+    "DefaultVisitReasonName": "Pain Management Consultation"
+  },
+  {
+    "SpecialtyId": "sp_141",
+    "Name": "Pediatric Surgeon",
+    "DefaultVisitReasonId": "pc_SQHMp9MQWEKPwhU7HpX3BB",
+    "DefaultVisitReasonName": "Pediatric Surgery Consultation"
+  },
+  {
+    "SpecialtyId": "sp_142",
+    "Name": "Vascular Surgeon",
+    "DefaultVisitReasonId": "pc_7cryxcnAqkmmgC8g0KdINh",
+    "DefaultVisitReasonName": "Vascular Surgery "
+  },
+  {
+    "SpecialtyId": "sp_143",
+    "Name": "Cardiothoracic Surgeon",
+    "DefaultVisitReasonId": "pc_SVHMZ-OLf0y-qSt1t4raix",
+    "DefaultVisitReasonName": "Cardiothoracic Surgery Consultation"
+  },
+  {
+    "SpecialtyId": "sp_144",
+    "Name": "Hand Surgeon",
+    "DefaultVisitReasonId": "pc_DLyOVDs86ky-WjC-gd1l3x",
+    "DefaultVisitReasonName": "Hand Surgery Consultation"
+  },
+  {
+    "SpecialtyId": "sp_145",
+    "Name": "Anesthesiologist",
+    "DefaultVisitReasonId": "pc_Wc5AAEjb8UKUK-ChS-hgHh",
+    "DefaultVisitReasonName": "Pain Management Consultation"
+  },
+  {
+    "SpecialtyId": "sp_146",
+    "Name": "Emergency Medicine Physician",
+    "DefaultVisitReasonId": "pc_MrafVWxZAU6AnPlxOrrb8x",
+    "DefaultVisitReasonName": "Emergency Consultation"
+  },
+  {
+    "SpecialtyId": "sp_148",
+    "Name": "Geneticist",
+    "DefaultVisitReasonId": "pc_bjK3OKQPUUOIX1tYJGkktx",
+    "DefaultVisitReasonName": "Genetics Consultation"
+  },
+  {
+    "SpecialtyId": "sp_151",
+    "Name": "Oral Surgeon",
+    "DefaultVisitReasonId": "pc_TlZW-r06U0W3pCsIGtSI5B",
+    "DefaultVisitReasonName": "Dental Consultation"
+  },
+  {
+    "SpecialtyId": "sp_152",
+    "Name": "Pediatric Dentist",
+    "DefaultVisitReasonId": "pc_Wqd-Q62VLU6ZS_dF9-EnRh",
+    "DefaultVisitReasonName": "Pediatric Dentist Consultation"
+  },
+  {
+    "SpecialtyId": "sp_153",
+    "Name": "Primary Care Doctor",
+    "DefaultVisitReasonId": "pc_FRO-18leckytNKtruw5dLR",
+    "DefaultVisitReasonName": "Illness"
+  },
+  {
+    "SpecialtyId": "sp_154",
+    "Name": "Immunologist",
+    "DefaultVisitReasonId": "pc_7caBglpTOkS5bYGSWwQq2x",
+    "DefaultVisitReasonName": "Auto-immune Disorder"
+  },
+  {
+    "SpecialtyId": "sp_155",
+    "Name": "Sleep Medicine Specialist",
+    "DefaultVisitReasonId": "pc_ONiL7KsfL02_hvkt5m3PkR",
+    "DefaultVisitReasonName": "Sleep Problems"
+  },
+  {
+    "SpecialtyId": "sp_156",
+    "Name": "Chiropractor",
+    "DefaultVisitReasonId": "pc_ScjCEdje7U-bsLzXVK-QSh",
+    "DefaultVisitReasonName": "Chiropractic Consultation"
+  },
+  {
+    "SpecialtyId": "sp_157",
+    "Name": "Optometrist",
+    "DefaultVisitReasonId": "pc_XtIIIaJ2qkmCvfRfrNTCmh",
+    "DefaultVisitReasonName": "Eyeglasses"
+  },
+  {
+    "SpecialtyId": "sp_158",
+    "Name": "Surgeon",
+    "DefaultVisitReasonId": "pc_3HZc8u45d0iyTSh4V_dkzR",
+    "DefaultVisitReasonName": "Surgery Consultation"
+  },
+  {
+    "SpecialtyId": "sp_159",
+    "Name": "Microbiologist",
+    "DefaultVisitReasonId": "pc_Gc8FKs9oKEmN2Tn7wf0VvB",
+    "DefaultVisitReasonName": "Microbiology Evaluation"
+  },
+  {
+    "SpecialtyId": "sp_160",
+    "Name": "Aesthetic Surgeon",
+    "DefaultVisitReasonId": "pc_WxicKn6KqEm8pq6wg-gnuh",
+    "DefaultVisitReasonName": "Botox Treatment"
+  },
+  {
+    "SpecialtyId": "sp_161",
+    "Name": "Craniofacial Surgeon",
+    "DefaultVisitReasonId": "pc_FU78J-tqR0WbHak8pXWNHR",
+    "DefaultVisitReasonName": "Craniofacial Surgery Consultation"
+  },
+  {
+    "SpecialtyId": "sp_164",
+    "Name": "Head & Neck Surgeon",
+    "DefaultVisitReasonId": "pc_n0c5jRypF0CBOwXoNyERRh",
+    "DefaultVisitReasonName": "Neck Surgery Consultation"
+  },
+  {
+    "SpecialtyId": "sp_165",
+    "Name": "Microvascular Surgeon",
+    "DefaultVisitReasonId": "pc_aH7FQmbVcEKMJBSIUQQfCx",
+    "DefaultVisitReasonName": "Microvascular Surgery"
+  },
+  {
+    "SpecialtyId": "sp_167",
+    "Name": "Facial Plastic & Reconstructive Surgeon",
+    "DefaultVisitReasonId": "pc_Qoff_3dot0-TYSu_RK1G1B",
+    "DefaultVisitReasonName": "Face Reconstructive Surgery Consultation"
+  },
+  {
+    "SpecialtyId": "sp_169",
+    "Name": "Neuro-Otologist",
+    "DefaultVisitReasonId": "pc__Cz5OlJbSU2ag5hc-UlyrB",
+    "DefaultVisitReasonName": "Dizziness"
+  },
+  {
+    "SpecialtyId": "sp_170",
+    "Name": "Sinus Surgeon / Rhinologist",
+    "DefaultVisitReasonId": "pc_o5HfMdgR9kKQ_GZ2A23Nrx",
+    "DefaultVisitReasonName": "Nose Surgery"
+  },
+  {
+    "SpecialtyId": "sp_171",
+    "Name": "Pediatric Otolaryngologist",
+    "DefaultVisitReasonId": "pc_opYejwP5qEmqehxK9otldR",
+    "DefaultVisitReasonName": "Pediatric General ENT Consultation"
+  },
+  {
+    "SpecialtyId": "sp_173",
+    "Name": "Geriatrician",
+    "DefaultVisitReasonId": "pc_bLJN61HBWEW-muILzFHlJh",
+    "DefaultVisitReasonName": "Senior Visit"
+  },
+  {
+    "SpecialtyId": "sp_176",
+    "Name": "Ocular Oncologist",
+    "DefaultVisitReasonId": "pc_cnA4N0z7P0ueShMGKbbmfR",
+    "DefaultVisitReasonName": "Ocular Oncology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_177",
+    "Name": "Ocular Pathologist",
+    "DefaultVisitReasonId": "pc_FsUNNXkdvUSxrFyWXhEZdR",
+    "DefaultVisitReasonName": "Ocular Pathology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_178",
+    "Name": "Ophthalmic Plastic, Orbital & Reconstructive Surgeon",
+    "DefaultVisitReasonId": "pc_pVrIHze7E067YgpX3QxD3B",
+    "DefaultVisitReasonName": "Anti-Aging Treatment"
+  },
+  {
+    "SpecialtyId": "sp_179",
+    "Name": "Ophthalmic Pathologist",
+    "DefaultVisitReasonId": "pc_1Q45jk37JUmMIra30nwFeR",
+    "DefaultVisitReasonName": "Ophthalmic Pathology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_180",
+    "Name": "Neuro-Ophthalmologist",
+    "DefaultVisitReasonId": "pc_vuFz9DBReki8LdfZwD_fmR",
+    "DefaultVisitReasonName": "Neuro-Ophthalmology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_181",
+    "Name": "Retina Specialist (Medical)",
+    "DefaultVisitReasonId": "pc_ny6PCjzMA0ecUqHRdlI2eh",
+    "DefaultVisitReasonName": "Retina Consultation"
+  },
+  {
+    "SpecialtyId": "sp_182",
+    "Name": "Retina & Vitreous Surgeon",
+    "DefaultVisitReasonId": "pc_gnie5N5HTk-d6abgfsHm8h",
+    "DefaultVisitReasonName": "Retina Surgery Consultation"
+  },
+  {
+    "SpecialtyId": "sp_183",
+    "Name": "Cornea & External Diseases Specialist",
+    "DefaultVisitReasonId": "pc_N9DG2-nUWkCea6sSnYGBbh",
+    "DefaultVisitReasonName": "Contact Lenses"
+  },
+  {
+    "SpecialtyId": "sp_184",
+    "Name": "Pediatric / Strabismus Eye Doctor",
+    "DefaultVisitReasonId": "pc_1sn4gGEbF0WJJS8a4fenDh",
+    "DefaultVisitReasonName": "Pediatric Eye Consultation"
+  },
+  {
+    "SpecialtyId": "sp_185",
+    "Name": "Hand & Microsurgery Specialist",
+    "DefaultVisitReasonId": "pc_rDX3UcMDbU2HlWEdSnuPZx",
+    "DefaultVisitReasonName": "Hand Problems"
+  },
+  {
+    "SpecialtyId": "sp_186",
+    "Name": "Oculoplastic Surgeon",
+    "DefaultVisitReasonId": "pc_X6qaY6DS-EuC_TRIOftHIx",
+    "DefaultVisitReasonName": "Oculoplastic Surgery Consultation"
+  },
+  {
+    "SpecialtyId": "sp_193",
+    "Name": "Pediatric Anesthesiologist",
+    "DefaultVisitReasonId": "pc_4ukrLWHdUU2DqT9GvWNEAh",
+    "DefaultVisitReasonName": "Pediatric Pre-Surgery Consultation"
+  },
+  {
+    "SpecialtyId": "sp_194",
+    "Name": "Neuro-Radiologist",
+    "DefaultVisitReasonId": "pc_QZ9vo0p8x0axjhUNeGitMR",
+    "DefaultVisitReasonName": "MRI Report - Brain"
+  },
+  {
+    "SpecialtyId": "sp_197",
+    "Name": "Laryngologist",
+    "DefaultVisitReasonId": "pc_vSFc7WzSXUi8LgJ__s80uh",
+    "DefaultVisitReasonName": "Hoarseness"
+  },
+  {
+    "SpecialtyId": "sp_212",
+    "Name": "Glaucoma Specialist",
+    "DefaultVisitReasonId": "pc_X5xIx_dVeU61AtrSmZfT5R",
+    "DefaultVisitReasonName": "Glaucoma Consultation"
+  },
+  {
+    "SpecialtyId": "sp_213",
+    "Name": "Uveitis Specialist",
+    "DefaultVisitReasonId": "pc_UYxmXHZ02kG7axq44BrXgR",
+    "DefaultVisitReasonName": "Uveitis Consultation"
+  },
+  {
+    "SpecialtyId": "sp_221",
+    "Name": "Refractive Surgeon",
+    "DefaultVisitReasonId": "pc_4597jzEuDkGBWaS51CBEuh",
+    "DefaultVisitReasonName": "Refractive Surgery Consultation"
+  },
+  {
+    "SpecialtyId": "sp_234",
+    "Name": "Maternal Fetal Medicine Specialist",
+    "DefaultVisitReasonId": "pc_wG0w5miIXEKgLz4ETJtTYR",
+    "DefaultVisitReasonName": "Pregnancy Follow Up"
+  },
+  {
+    "SpecialtyId": "sp_235",
+    "Name": "Gynecologic Oncologist",
+    "DefaultVisitReasonId": "pc_Tf_CZbWx50WpWk0l516GCh",
+    "DefaultVisitReasonName": "Ovarian Cancer"
+  },
+  {
+    "SpecialtyId": "sp_237",
+    "Name": "Urogynecologist",
+    "DefaultVisitReasonId": "pc_VTTMCqawEkm5B82NC7IcRB",
+    "DefaultVisitReasonName": "Incontinence"
+  },
+  {
+    "SpecialtyId": "sp_239",
+    "Name": "Behavioral Pediatrics Specialist",
+    "DefaultVisitReasonId": "pc_jDpJ4emdS0qUpAxSy3j1QR",
+    "DefaultVisitReasonName": "Autism"
+  },
+  {
+    "SpecialtyId": "sp_240",
+    "Name": "Pediatric Cardiologist",
+    "DefaultVisitReasonId": "pc_OVQeyjfCn0yLv41Oy-vstR",
+    "DefaultVisitReasonName": "Congenital Heart Disease"
+  },
+  {
+    "SpecialtyId": "sp_241",
+    "Name": "Pediatric Critical Care Specialist",
+    "DefaultVisitReasonId": "pc_Sq34dihAYUyYNWz563XtwR",
+    "DefaultVisitReasonName": "Pediatric Critical Care Consultation"
+  },
+  {
+    "SpecialtyId": "sp_242",
+    "Name": "Pediatric Endocrinologist",
+    "DefaultVisitReasonId": "pc_PLB_O-9RsES2KPwF6c6A6x",
+    "DefaultVisitReasonName": "Pediatric Endocrinology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_243",
+    "Name": "Pediatric Gastroenterologist",
+    "DefaultVisitReasonId": "pc_uj_SHDmOmUOo7L7BpSUU5h",
+    "DefaultVisitReasonName": "Gastroscopy"
+  },
+  {
+    "SpecialtyId": "sp_244",
+    "Name": "Pediatric Hematologist",
+    "DefaultVisitReasonId": "pc_oKPJL0HaxUe3yHVumNL6TR",
+    "DefaultVisitReasonName": "Pediatric Hematology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_245",
+    "Name": "Pediatric Oncologist",
+    "DefaultVisitReasonId": "pc_ZP-jRJzduEOcBdpg9MSZFR",
+    "DefaultVisitReasonName": "Pediatric Oncology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_246",
+    "Name": "Pediatric Infectious Disease Specialist",
+    "DefaultVisitReasonId": "pc_beghvAtVVkefejDXnf7tNx",
+    "DefaultVisitReasonName": "Pediatric Lyme Disease"
+  },
+  {
+    "SpecialtyId": "sp_247",
+    "Name": "Pediatric Nephrologist",
+    "DefaultVisitReasonId": "pc_PX4oxOX-xkeHTBfLLUn6ih",
+    "DefaultVisitReasonName": "Congenital Kidney Disease"
+  },
+  {
+    "SpecialtyId": "sp_248",
+    "Name": "Pediatric Pulmonologist",
+    "DefaultVisitReasonId": "pc_F4X_lMkB702Djes7iKY5Gh",
+    "DefaultVisitReasonName": "Cystic Fibrosis "
+  },
+  {
+    "SpecialtyId": "sp_250",
+    "Name": "Child and Adolescent Psychiatrist",
+    "DefaultVisitReasonId": "pc_fTgcFFRYTUil20_O3ls20B",
+    "DefaultVisitReasonName": "Addiction / Substance Abuse"
+  },
+  {
+    "SpecialtyId": "sp_252",
+    "Name": "Neonatal-Perinatal Medicine Specialist",
+    "DefaultVisitReasonId": "pc_wLtYF5Bn20uCF75a3_WY8B",
+    "DefaultVisitReasonName": "Neonatologist Consultation"
+  },
+  {
+    "SpecialtyId": "sp_253",
+    "Name": "Adolescent Medicine Specialist",
+    "DefaultVisitReasonId": "pc_xYigLhZQW0WVhI2BPPO5qR",
+    "DefaultVisitReasonName": "Adolescent Medicine Consultation"
+  },
+  {
+    "SpecialtyId": "sp_255",
+    "Name": "Breast Surgeon",
+    "DefaultVisitReasonId": "pc_KjuombbdxkSp0DGrnkrPHh",
+    "DefaultVisitReasonName": "Breast Surgery"
+  },
+  {
+    "SpecialtyId": "sp_256",
+    "Name": "Bariatric Surgeon",
+    "DefaultVisitReasonId": "pc_BxZvVM8JOEyzUXOcWDKzWx",
+    "DefaultVisitReasonName": "Weight Loss Consultation"
+  },
+  {
+    "SpecialtyId": "sp_258",
+    "Name": "Trauma Surgeon",
+    "DefaultVisitReasonId": "pc_Opg2I2cPf02Jd3EGKpaYXB",
+    "DefaultVisitReasonName": "Fracture"
+  },
+  {
+    "SpecialtyId": "sp_261",
+    "Name": "Pediatric Neurologist",
+    "DefaultVisitReasonId": "pc_KgKmIhO7yke-PPTyAxno1B",
+    "DefaultVisitReasonName": "Pediatric Neurology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_265",
+    "Name": "Pediatric Radiologist",
+    "DefaultVisitReasonId": "pc_dRM4KMJzd0-fCs65NbISZR",
+    "DefaultVisitReasonName": "CT Scan Report - Head"
+  },
+  {
+    "SpecialtyId": "sp_268",
+    "Name": "Interventional Radiologist",
+    "DefaultVisitReasonId": "pc_lyEH-12yr0OWR0g3YPsOQR",
+    "DefaultVisitReasonName": "Interventional Radiology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_271",
+    "Name": "Abdominal Radiologist",
+    "DefaultVisitReasonId": "pc_F3uC9APiOU-Mb4bUHB9N6R",
+    "DefaultVisitReasonName": "CT Scan Report - Other"
+  },
+  {
+    "SpecialtyId": "sp_272",
+    "Name": "Reconstructive Surgeon",
+    "DefaultVisitReasonId": "pc_AqMR0XZ4Y0GpmxGZlJ2SXh",
+    "DefaultVisitReasonName": "Reconstructive Surgery Consultation"
+  },
+  {
+    "SpecialtyId": "sp_273",
+    "Name": "Cardiothoracic Radiologist",
+    "DefaultVisitReasonId": "pc__ZTYizuS3kWaUlq35DfXhR",
+    "DefaultVisitReasonName": "Coronary Angiography"
+  },
+  {
+    "SpecialtyId": "sp_274",
+    "Name": "Chemical Pathology Specialist",
+    "DefaultVisitReasonId": "pc_SRRsYKYw9EuzvE4mZNSe7x",
+    "DefaultVisitReasonName": "Chemical Pathology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_275",
+    "Name": "Clinical Neurophysiologist",
+    "DefaultVisitReasonId": "pc_10Zt4E-6g0y1Te3Wtzibwx",
+    "DefaultVisitReasonName": "Nerve Conduction Studies (NCS)"
+  },
+  {
+    "SpecialtyId": "sp_276",
+    "Name": "Skin Pathology Specialist (Dermatopathology)",
+    "DefaultVisitReasonId": "pc_ZmGgizTDHE6s1mSlYlgenR",
+    "DefaultVisitReasonName": "Skin Pathology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_277",
+    "Name": "Interventional Neuro-Radiologist",
+    "DefaultVisitReasonId": "pc_otcTc43eBEeQh7vzNk2BGR",
+    "DefaultVisitReasonName": "Stent Consultation"
+  },
+  {
+    "SpecialtyId": "sp_278",
+    "Name": "Critical Care Specialist",
+    "DefaultVisitReasonId": "pc_BUoo0FUgM0-K013iNBaI7B",
+    "DefaultVisitReasonName": "Critical Care Consultation"
+  },
+  {
+    "SpecialtyId": "sp_279",
+    "Name": "Foot & Ankle Specialist",
+    "DefaultVisitReasonId": "pc_wWed6YKAj0eUfnHC3x997x",
+    "DefaultVisitReasonName": "Foot Problems"
+  },
+  {
+    "SpecialtyId": "sp_280",
+    "Name": "Forensic Psychiatrist",
+    "DefaultVisitReasonId": "pc_FyLYs2bvFkuUBPnn7MtWCR",
+    "DefaultVisitReasonName": "Mental Competency Evaluation"
+  },
+  {
+    "SpecialtyId": "sp_281",
+    "Name": "Geriatric Psychiatrist",
+    "DefaultVisitReasonId": "pc_89GZHVAPxkuEvbluQj7RJR",
+    "DefaultVisitReasonName": "Alzheimer's Disease"
+  },
+  {
+    "SpecialtyId": "sp_283",
+    "Name": "Medical Biochemical Geneticist",
+    "DefaultVisitReasonId": "pc_8_lT8O8xxUqdNSJf_fgpRB",
+    "DefaultVisitReasonName": "Biochemical Genetics Consultation"
+  },
+  {
+    "SpecialtyId": "sp_284",
+    "Name": "Molecular Genetic Pathologist",
+    "DefaultVisitReasonId": "pc_W2uh38b9I0eVLMxd-Ty9iB",
+    "DefaultVisitReasonName": "Molecular Genetics Consultation"
+  },
+  {
+    "SpecialtyId": "sp_286",
+    "Name": "Musculoskeletal Radiologist",
+    "DefaultVisitReasonId": "pc_14kCx1-3wUyHEdJ0ITyIUR",
+    "DefaultVisitReasonName": "X-ray"
+  },
+  {
+    "SpecialtyId": "sp_287",
+    "Name": "Neuromuscular Specialist",
+    "DefaultVisitReasonId": "pc_FA190xKEQk6puqb9nH-XyB",
+    "DefaultVisitReasonName": "Movement Issues"
+  },
+  {
+    "SpecialtyId": "sp_288",
+    "Name": "Neuropathologist",
+    "DefaultVisitReasonId": "pc_Rht90njSPkKRvPAEDEXgjR",
+    "DefaultVisitReasonName": "Neuropathology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_290",
+    "Name": "Spine Specialist",
+    "DefaultVisitReasonId": "pc_qAJNbrMly060eHbpxjz9lx",
+    "DefaultVisitReasonName": "Spine Specialist Consultation"
+  },
+  {
+    "SpecialtyId": "sp_296",
+    "Name": "Pediatric Sports Medicine Specialist",
+    "DefaultVisitReasonId": "pc_PV_3VYt1eU2-Qh6Rr33Kfx",
+    "DefaultVisitReasonName": "Bruise / Contusion"
+  },
+  {
+    "SpecialtyId": "sp_297",
+    "Name": "Procedural Dermatology Specialist",
+    "DefaultVisitReasonId": "pc_PjUzcB0FkkK5awf_iHNsOR",
+    "DefaultVisitReasonName": "Mohs Surgery"
+  },
+  {
+    "SpecialtyId": "sp_298",
+    "Name": "Addiction Specialist",
+    "DefaultVisitReasonId": "pc_fTgcFFRYTUil20_O3ls20B",
+    "DefaultVisitReasonName": "Addiction / Substance Abuse"
+  },
+  {
+    "SpecialtyId": "sp_299",
+    "Name": "Psychosomatic Medicine Specialist",
+    "DefaultVisitReasonId": "pc_fTgcFFRYTUil20_O3ls20B",
+    "DefaultVisitReasonName": "Addiction / Substance Abuse"
+  },
+  {
+    "SpecialtyId": "sp_301",
+    "Name": "Cytopathologist",
+    "DefaultVisitReasonId": "pc_bqMgPhGzFUe4eMv5J-jbqR",
+    "DefaultVisitReasonName": "Cytopathology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_304",
+    "Name": "Pediatric Pathologist",
+    "DefaultVisitReasonId": "pc_LA6JtkwElE6tuN0mos4H2h",
+    "DefaultVisitReasonName": "Pediatric Pathology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_309",
+    "Name": "Pediatric Orthopedic Surgeon",
+    "DefaultVisitReasonId": "pc_rA3EvOAcAUCjdW2fkdAo4h",
+    "DefaultVisitReasonName": "Pediatric Orthopedics Consultation"
+  },
+  {
+    "SpecialtyId": "sp_310",
+    "Name": "Cardiothoracic Anesthesiologist",
+    "DefaultVisitReasonId": "pc_MXRLY9kCLEWld7kixRnfgB",
+    "DefaultVisitReasonName": "Pre-Surgery Consultation"
+  },
+  {
+    "SpecialtyId": "sp_311",
+    "Name": "Developmental Pediatrics Specialist",
+    "DefaultVisitReasonId": "pc_F2DJXxtey0OgX0oEn1mp9x",
+    "DefaultVisitReasonName": "Hearing Problems"
+  },
+  {
+    "SpecialtyId": "sp_312",
+    "Name": "Pediatric Urologist",
+    "DefaultVisitReasonId": "pc_7nKvcikT50m7Esb4Fnyc1R",
+    "DefaultVisitReasonName": "Pediatric Urology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_318",
+    "Name": "Neurodevelopmental Disabilities Specialist",
+    "DefaultVisitReasonId": "pc_jDpJ4emdS0qUpAxSy3j1QR",
+    "DefaultVisitReasonName": "Autism"
+  },
+  {
+    "SpecialtyId": "sp_319",
+    "Name": "Vascular Neurology Specialist",
+    "DefaultVisitReasonId": "pc_2DsicA_s8UOgytZb7rhmpB",
+    "DefaultVisitReasonName": "Stroke Check-up / Prevention"
+  },
+  {
+    "SpecialtyId": "sp_320",
+    "Name": "Pediatric Rehabilitation Specialist",
+    "DefaultVisitReasonId": "pc_BwLyqcMvgUCtGkIekY7U7x",
+    "DefaultVisitReasonName": "Physical Medicine / Rehab Consultation"
+  },
+  {
+    "SpecialtyId": "sp_322",
+    "Name": "Toxicologist",
+    "DefaultVisitReasonId": "pc_FzDtZdfGtEqhkvqkgUJm6x",
+    "DefaultVisitReasonName": "Toxicology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_324",
+    "Name": "Hyperbaric Treatment Specialist",
+    "DefaultVisitReasonId": "pc_R-1euGMmtEqUIMxIMOY7MR",
+    "DefaultVisitReasonName": "Decompression Sickness"
+  },
+  {
+    "SpecialtyId": "sp_326",
+    "Name": "Transplant Specialist",
+    "DefaultVisitReasonId": "pc_RYWBOHoS40-UTtygI6Zkch",
+    "DefaultVisitReasonName": "Transplantation Consultation"
+  },
+  {
+    "SpecialtyId": "sp_327",
+    "Name": "Pediatric Transplant Specialist",
+    "DefaultVisitReasonId": "pc_JIFRnUpv_0KNUGpxX82WdB",
+    "DefaultVisitReasonName": "Pediatric Transplant Consultation"
+  },
+  {
+    "SpecialtyId": "sp_333",
+    "Name": "Cosmetic Dentist",
+    "DefaultVisitReasonId": "pc__sbHUVqotku5msuvXKmpRh",
+    "DefaultVisitReasonName": "Teeth Whitening"
+  },
+  {
+    "SpecialtyId": "sp_334",
+    "Name": "Dental Pain Specialist",
+    "DefaultVisitReasonId": "pc_ur4dSExMqEOUnNB25lUNPB",
+    "DefaultVisitReasonName": "Dental Emergency"
+  },
+  {
+    "SpecialtyId": "sp_335",
+    "Name": "Physical Therapist",
+    "DefaultVisitReasonId": "pc_2rvYrf9iikmawWs5xMw7IR",
+    "DefaultVisitReasonName": "Physical Therapy Consultation"
+  },
+  {
+    "SpecialtyId": "sp_336",
+    "Name": "Physiatrist",
+    "DefaultVisitReasonId": "pc_BwLyqcMvgUCtGkIekY7U7x",
+    "DefaultVisitReasonName": "Physical Medicine / Rehab Consultation"
+  },
+  {
+    "SpecialtyId": "sp_337",
+    "Name": "Psychologist",
+    "DefaultVisitReasonId": "pc_rIYw8hp_3Eed1R1-e2iydh",
+    "DefaultVisitReasonName": "Psychotherapy"
+  },
+  {
+    "SpecialtyId": "sp_338",
+    "Name": "Pediatric Dermatologist",
+    "DefaultVisitReasonId": "pc_S3jS6nwQq0SLzUGj-O45lx",
+    "DefaultVisitReasonName": "Pediatric Acne"
+  },
+  {
+    "SpecialtyId": "sp_339",
+    "Name": "Reproductive Endocrinologist",
+    "DefaultVisitReasonId": "pc_C_JNjmk-6keUz1xF8yvWOx",
+    "DefaultVisitReasonName": "Infertility Consultation"
+  },
+  {
+    "SpecialtyId": "sp_341",
+    "Name": "Pediatric Neurosurgeon",
+    "DefaultVisitReasonId": "pc_NUA_hQT6hEmAxioZfiZ7vR",
+    "DefaultVisitReasonName": "Pediatric Neurosurgery Consultation"
+  },
+  {
+    "SpecialtyId": "sp_343",
+    "Name": "Travel Medicine Specialist",
+    "DefaultVisitReasonId": "pc_GO73Y-lj-UuAuj-KSv6lYh",
+    "DefaultVisitReasonName": "Pre-Travel Consultation"
+  },
+  {
+    "SpecialtyId": "sp_344",
+    "Name": "Preventive Medicine Specialist",
+    "DefaultVisitReasonId": "pc_NcfEZ1FfMkKuX-jdDAFvQh",
+    "DefaultVisitReasonName": "Preventive Medicine Consultation"
+  },
+  {
+    "SpecialtyId": "sp_345",
+    "Name": "Acupuncturist",
+    "DefaultVisitReasonId": "pc_eWQnfg4qPUSe83q8DqzBph",
+    "DefaultVisitReasonName": "Acupuncture"
+  },
+  {
+    "SpecialtyId": "sp_346",
+    "Name": "Audiologist",
+    "DefaultVisitReasonId": "pc_F2DJXxtey0OgX0oEn1mp9x",
+    "DefaultVisitReasonName": "Hearing Problems"
+  },
+  {
+    "SpecialtyId": "sp_347",
+    "Name": "Pediatric Allergist",
+    "DefaultVisitReasonId": "pc_rwMGP9XfCEeW5UgLz-4xjx",
+    "DefaultVisitReasonName": "Pediatric Allergy Consultation"
+  },
+  {
+    "SpecialtyId": "sp_351",
+    "Name": "Pediatric Rheumatologist",
+    "DefaultVisitReasonId": "pc_usIllFN1CUejbvIZIko4SB",
+    "DefaultVisitReasonName": "Pediatric Rheumatologist Consultation"
+  },
+  {
+    "SpecialtyId": "sp_352",
+    "Name": "Psychotherapist",
+    "DefaultVisitReasonId": "pc_VkPF8dBXGkuHLA3Pwrm_Qh",
+    "DefaultVisitReasonName": "Psychotherapy Intake / Initial Visit"
+  },
+  {
+    "SpecialtyId": "sp_353",
+    "Name": "Shoulder & Elbow Surgeon",
+    "DefaultVisitReasonId": "pc_c2TMoMIXoESzotVV4a5F0B",
+    "DefaultVisitReasonName": "Elbow Problems"
+  },
+  {
+    "SpecialtyId": "sp_354",
+    "Name": "Medical Ethicist",
+    "DefaultVisitReasonId": "pc_BWKFTbp8JUioRH1vA0Gyeh",
+    "DefaultVisitReasonName": "Medical Ethics Discussion"
+  },
+  {
+    "SpecialtyId": "sp_355",
+    "Name": "Interventional Cardiologist",
+    "DefaultVisitReasonId": "pc_0GwNcmCbPECT_e1vrPWO0x",
+    "DefaultVisitReasonName": "Carotid Doppler"
+  },
+  {
+    "SpecialtyId": "sp_357",
+    "Name": "Occupational Medicine Specialist",
+    "DefaultVisitReasonId": "pc_n7ZylAB7TUOYAOXEgW-NpB",
+    "DefaultVisitReasonName": "Functional Capacity Evaluation (Physical)"
+  },
+  {
+    "SpecialtyId": "sp_359",
+    "Name": "Dietitian",
+    "DefaultVisitReasonId": "pc_BxZvVM8JOEyzUXOcWDKzWx",
+    "DefaultVisitReasonName": "Weight Loss Consultation"
+  },
+  {
+    "SpecialtyId": "sp_360",
+    "Name": "Hepatologist",
+    "DefaultVisitReasonId": "pc_R5KIz5GsH0WvR9yWUTueaB",
+    "DefaultVisitReasonName": "Hepatitis"
+  },
+  {
+    "SpecialtyId": "sp_362",
+    "Name": "Midwife",
+    "DefaultVisitReasonId": "pc_9cYi0oM8ukqMUjzO5MCgSh",
+    "DefaultVisitReasonName": "Pregnancy Problem"
+  },
+  {
+    "SpecialtyId": "sp_363",
+    "Name": "Hip and Knee Surgeon",
+    "DefaultVisitReasonId": "pc_NYyA_I3Aw0eOa_Eps3sgZR",
+    "DefaultVisitReasonName": "Knee Pain"
+  },
+  {
+    "SpecialtyId": "sp_364",
+    "Name": "Bariatric Physician",
+    "DefaultVisitReasonId": "pc_BxZvVM8JOEyzUXOcWDKzWx",
+    "DefaultVisitReasonName": "Weight Loss Consultation"
+  },
+  {
+    "SpecialtyId": "sp_366",
+    "Name": "Proctologist",
+    "DefaultVisitReasonId": "pc_hNS5tVvIHkSBuCKrDuMVjx",
+    "DefaultVisitReasonName": "Proctology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_367",
+    "Name": "Cosmetic Dermatologist",
+    "DefaultVisitReasonId": "pc_pVrIHze7E067YgpX3QxD3B",
+    "DefaultVisitReasonName": "Anti-Aging Treatment"
+  },
+  {
+    "SpecialtyId": "sp_368",
+    "Name": "Gynecologist",
+    "DefaultVisitReasonId": "pc_jL57dJbLT0y5AGae2izsSR",
+    "DefaultVisitReasonName": "Annual Pap Smear / GYN Exam"
+  },
+  {
+    "SpecialtyId": "sp_370",
+    "Name": "Hospice and Palliative Medicine Specialist",
+    "DefaultVisitReasonId": "pc_bdTX1w03D0K264-Sj2EBmR",
+    "DefaultVisitReasonName": "Pain Control"
+  },
+  {
+    "SpecialtyId": "sp_372",
+    "Name": "Maxillofacial Prosthodontist",
+    "DefaultVisitReasonId": "pc_UP_ieisNAkaoVx9QMI71qx",
+    "DefaultVisitReasonName": "Prosthodontist Consultation"
+  },
+  {
+    "SpecialtyId": "sp_373",
+    "Name": "Naturopathic Doctor",
+    "DefaultVisitReasonId": "pc_FRO-18leckytNKtruw5dLR",
+    "DefaultVisitReasonName": "Illness"
+  },
+  {
+    "SpecialtyId": "sp_374",
+    "Name": "Occupational Therapist",
+    "DefaultVisitReasonId": "pc_AzuCINZywUm7bDnbjom3Nx",
+    "DefaultVisitReasonName": "Occupational Therapy Consultation"
+  },
+  {
+    "SpecialtyId": "sp_376",
+    "Name": "Optometric Glaucoma Specialist",
+    "DefaultVisitReasonId": "pc_X5xIx_dVeU61AtrSmZfT5R",
+    "DefaultVisitReasonName": "Glaucoma Consultation"
+  },
+  {
+    "SpecialtyId": "sp_379",
+    "Name": "Pediatric Cardiothoracic Surgeon",
+    "DefaultVisitReasonId": "pc_jIy4FHThoka0MiOZ-L6tHx",
+    "DefaultVisitReasonName": "Pediatric Cardiothoracic Surgery Consultation"
+  },
+  {
+    "SpecialtyId": "sp_380",
+    "Name": "Pediatric Pain Management Specialist",
+    "DefaultVisitReasonId": "pc_9FHh9cWIek-YzEhblOPsXR",
+    "DefaultVisitReasonName": "Pediatric Pain Management"
+  },
+  {
+    "SpecialtyId": "sp_381",
+    "Name": "Physician Assistant",
+    "DefaultVisitReasonId": "pc_zZWhkaURvEGlZpSimNILaB",
+    "DefaultVisitReasonName": "General Consultation"
+  },
+  {
+    "SpecialtyId": "sp_383",
+    "Name": "Neuropsychiatrist",
+    "DefaultVisitReasonId": "pc_Xdcmv_WxHEWB-j7j9kZwcB",
+    "DefaultVisitReasonName": "Neuropsychiatry Consultation"
+  },
+  {
+    "SpecialtyId": "sp_384",
+    "Name": "Nutritionist",
+    "DefaultVisitReasonId": "pc_BxZvVM8JOEyzUXOcWDKzWx",
+    "DefaultVisitReasonName": "Weight Loss Consultation"
+  },
+  {
+    "SpecialtyId": "sp_390",
+    "Name": "Surgical Oncologist",
+    "DefaultVisitReasonId": "pc_pkmylSrjxUGga2Y1L9nuLB",
+    "DefaultVisitReasonName": "Surgical Oncology"
+  },
+  {
+    "SpecialtyId": "sp_393",
+    "Name": "Pediatric Emergency Medicine Specialist",
+    "DefaultVisitReasonId": "pc_10rxlGG6DUaFELOx96YYxB",
+    "DefaultVisitReasonName": "Pediatric Emergency "
+  },
+  {
+    "SpecialtyId": "sp_394",
+    "Name": "Epilepsy Specialist",
+    "DefaultVisitReasonId": "pc_rQNT0KM5AUu77HqJG041Lh",
+    "DefaultVisitReasonName": "Seizures / Epilepsy"
+  },
+  {
+    "SpecialtyId": "sp_395",
+    "Name": "Neuromusculoskeletal Medicine & OMM Specialist",
+    "DefaultVisitReasonId": "pc_DMgwU6Npd0OpCxJIvs5rBB",
+    "DefaultVisitReasonName": "Osteopathic Consultation"
+  },
+  {
+    "SpecialtyId": "sp_399",
+    "Name": "Nurse Practitioner",
+    "DefaultVisitReasonId": "pc_FRO-18leckytNKtruw5dLR",
+    "DefaultVisitReasonName": "Illness"
+  },
+  {
+    "SpecialtyId": "sp_400",
+    "Name": "Adult Nurse Practitioner",
+    "DefaultVisitReasonId": "pc_FRO-18leckytNKtruw5dLR",
+    "DefaultVisitReasonName": "Illness"
+  },
+  {
+    "SpecialtyId": "sp_401",
+    "Name": "Family Nurse Practitioner",
+    "DefaultVisitReasonId": "pc_FRO-18leckytNKtruw5dLR",
+    "DefaultVisitReasonName": "Illness"
+  },
+  {
+    "SpecialtyId": "sp_402",
+    "Name": "Pediatric Nurse Practitioner",
+    "DefaultVisitReasonId": "pc_z-XC40xg6Uq61dk7tWXPUB",
+    "DefaultVisitReasonName": "Pediatric Consultation"
+  },
+  {
+    "SpecialtyId": "sp_403",
+    "Name": "Women's Health Nurse Practitioner",
+    "DefaultVisitReasonId": "pc_jL57dJbLT0y5AGae2izsSR",
+    "DefaultVisitReasonName": "Annual Pap Smear / GYN Exam"
+  },
+  {
+    "SpecialtyId": "sp_404",
+    "Name": "OB-GYN Nurse Practitioner",
+    "DefaultVisitReasonId": "pc_jL57dJbLT0y5AGae2izsSR",
+    "DefaultVisitReasonName": "Annual Pap Smear / GYN Exam"
+  },
+  {
+    "SpecialtyId": "sp_405",
+    "Name": "Adult Psychiatric & Mental Health Nurse Practitioner",
+    "DefaultVisitReasonId": "pc_ys0YO4BWiUi-MJ3DUNuXeB",
+    "DefaultVisitReasonName": "Depression"
+  },
+  {
+    "SpecialtyId": "sp_406",
+    "Name": "Family Psychiatric & Mental Health Nurse Practitioner",
+    "DefaultVisitReasonId": "pc_mLdGog6Fwkev_8amkyM4uB",
+    "DefaultVisitReasonName": "Psychiatry Consultation"
+  },
+  {
+    "SpecialtyId": "sp_407",
+    "Name": "Mental Health Nurse Practitioner",
+    "DefaultVisitReasonId": "pc_ys0YO4BWiUi-MJ3DUNuXeB",
+    "DefaultVisitReasonName": "Depression"
+  },
+  {
+    "SpecialtyId": "sp_408",
+    "Name": "Urological Surgeon",
+    "DefaultVisitReasonId": "pc_aBwdvp7jAUu9KbZJ7m67Rh",
+    "DefaultVisitReasonName": "Urological Surgery Consultation"
+  },
+  {
+    "SpecialtyId": "sp_412",
+    "Name": "Hip Surgeon",
+    "DefaultVisitReasonId": "pc_oiLtD9NVB0asgdnIF29lAR",
+    "DefaultVisitReasonName": "Hip Problems"
+  },
+  {
+    "SpecialtyId": "sp_413",
+    "Name": "Knee Surgeon",
+    "DefaultVisitReasonId": "pc_ycr3-AJHOEKsvOifZlU1kR",
+    "DefaultVisitReasonName": "Knee Problems"
+  },
+  {
+    "SpecialtyId": "sp_414",
+    "Name": "Elbow Surgeon",
+    "DefaultVisitReasonId": "pc_c2TMoMIXoESzotVV4a5F0B",
+    "DefaultVisitReasonName": "Elbow Problems"
+  },
+  {
+    "SpecialtyId": "sp_415",
+    "Name": "Shoulder Surgeon",
+    "DefaultVisitReasonId": "pc_dFrJB1lVKkGCldQehJHe4R",
+    "DefaultVisitReasonName": "Shoulder Problem"
+  },
+  {
+    "SpecialtyId": "sp_416",
+    "Name": "Child and Adolescent Psychologist",
+    "DefaultVisitReasonId": "pc_vy8i--f3YE-wX45FJqloRB",
+    "DefaultVisitReasonName": "Adolescent / Teen Issues"
+  },
+  {
+    "SpecialtyId": "sp_418",
+    "Name": "Acute Care Nurse Practitioner (Adult / Gerontology)",
+    "DefaultVisitReasonId": "pc_FRO-18leckytNKtruw5dLR",
+    "DefaultVisitReasonName": "Illness"
+  },
+  {
+    "SpecialtyId": "sp_419",
+    "Name": "Endocrine Surgeon",
+    "DefaultVisitReasonId": "pc_dG7ZRUbKwEWC8-sprkW_hB",
+    "DefaultVisitReasonName": "Endocrine Surgery Consultation"
+  },
+  {
+    "SpecialtyId": "sp_420",
+    "Name": "Integrative Health Medicine Specialist",
+    "DefaultVisitReasonId": "pc_gDD7-VRLJUqwKIrPav5oux",
+    "DefaultVisitReasonName": "Wellness Care"
+  },
+  {
+    "SpecialtyId": "sp_421",
+    "Name": "Burn Surgeon",
+    "DefaultVisitReasonId": "pc_cXapYRjWv0Cn_IRqT_b9YB",
+    "DefaultVisitReasonName": "Burn Consultation"
+  },
+  {
+    "SpecialtyId": "sp_422",
+    "Name": "Advanced Heart Failure and Transplant Cardiologist",
+    "DefaultVisitReasonId": "pc_f86mCGhyJki6wRs3GLVPeR",
+    "DefaultVisitReasonName": "Heart Failure / Transplant Consultation"
+  },
+  {
+    "SpecialtyId": "sp_423",
+    "Name": "Pediatric Sleep Medicine Specialist",
+    "DefaultVisitReasonId": "pc_VJeyx0wrx0q0eWbjqr6Deh",
+    "DefaultVisitReasonName": "Pediatric Sleep Problems"
+  },
+  {
+    "SpecialtyId": "sp_425",
+    "Name": "Oral and Maxillofacial Pathologist",
+    "DefaultVisitReasonId": "pc_iItFINRSMUeANom29LO8WR",
+    "DefaultVisitReasonName": "Tongue Disorder"
+  },
+  {
+    "SpecialtyId": "sp_426",
+    "Name": "Oral and Maxillofacial Radiologist",
+    "DefaultVisitReasonId": "pc_chd7k-si7kOOSZrWTVE-BR",
+    "DefaultVisitReasonName": "CT Scan - Teeth (Dental Scan)"
+  },
+  {
+    "SpecialtyId": "sp_427",
+    "Name": "Nuclear Radiologist",
+    "DefaultVisitReasonId": "pc_3OxYmAG4CEqx4vmm68h_hh",
+    "DefaultVisitReasonName": "Radioimmunotherapy"
+  },
+  {
+    "SpecialtyId": "sp_428",
+    "Name": "Endovascular Surgical Neuroradiologist",
+    "DefaultVisitReasonId": "pc_rMQR0Z-Ojk23dPyq_81Sgx",
+    "DefaultVisitReasonName": "Cerebrovascular Disease Consultation"
+  },
+  {
+    "SpecialtyId": "sp_429",
+    "Name": "Vascular Interventional Radiologist",
+    "DefaultVisitReasonId": "pc_otcTc43eBEeQh7vzNk2BGR",
+    "DefaultVisitReasonName": "Stent Consultation"
+  },
+  {
+    "SpecialtyId": "sp_430",
+    "Name": "Obstetric Anesthesiologist",
+    "DefaultVisitReasonId": "pc_WEDCB8UlhUiBgCfbxLzXMh",
+    "DefaultVisitReasonName": "Labor Pain"
+  },
+  {
+    "SpecialtyId": "sp_431",
+    "Name": "Diagnostic Radiologist",
+    "DefaultVisitReasonId": "pc_F3uC9APiOU-Mb4bUHB9N6R",
+    "DefaultVisitReasonName": "CT Scan Report - Other"
+  },
+  {
+    "SpecialtyId": "sp_432",
+    "Name": "Adult Congenital Heart Disease Specialist",
+    "DefaultVisitReasonId": "pc_OVQeyjfCn0yLv41Oy-vstR",
+    "DefaultVisitReasonName": "Congenital Heart Disease"
+  },
+  {
+    "SpecialtyId": "sp_433",
+    "Name": "Surgical Critical Care Specialist",
+    "DefaultVisitReasonId": "pc__IfaBf3w60W7rzmz7pJNmB",
+    "DefaultVisitReasonName": "Surgical Emergency"
+  },
+  {
+    "SpecialtyId": "sp_434",
+    "Name": "Pulmonary Diseases and Critical Care Medicine Specialist",
+    "DefaultVisitReasonId": "pc_MmupBi07Wk26y4j6LCNcGB",
+    "DefaultVisitReasonName": "Pulmonology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_435",
+    "Name": "Transplant Hepatologist",
+    "DefaultVisitReasonId": "pc_AYYd_qjOp0iNw2uUzHclkR",
+    "DefaultVisitReasonName": "Liver Transplant Consultation"
+  },
+  {
+    "SpecialtyId": "sp_436",
+    "Name": "Medical Genetics and Genomics Specialist",
+    "DefaultVisitReasonId": "pc_Si7Kiz6pFkOzmZ9afg1Qgx",
+    "DefaultVisitReasonName": "Genetic Testing"
+  },
+  {
+    "SpecialtyId": "sp_437",
+    "Name": "Brain Injury Medicine Specialist",
+    "DefaultVisitReasonId": "pc_j9sYp3MZpkGZAuMpAfAxHB",
+    "DefaultVisitReasonName": "Brain Trauma / Injury"
+  },
+  {
+    "SpecialtyId": "sp_438",
+    "Name": "Marriage and Family Therapist",
+    "DefaultVisitReasonId": "pc_Idvxg4_Pq0mSORYOwdFJXh",
+    "DefaultVisitReasonName": "Family Therapy/ Marriage Therapy"
+  },
+  {
+    "SpecialtyId": "sp_439",
+    "Name": "Adult Reconstructive Orthopedic Surgeon",
+    "DefaultVisitReasonId": "pc_HceHhP2IzEKsb5bVoEY71R",
+    "DefaultVisitReasonName": "Orthopedic Reconstruction Consultation"
+  },
+  {
+    "SpecialtyId": "sp_440",
+    "Name": "Orthopedic Trauma Specialist",
+    "DefaultVisitReasonId": "pc_v-4naKSYakycmDgs2_N2WB",
+    "DefaultVisitReasonName": "Orthopedic Trauma"
+  },
+  {
+    "SpecialtyId": "sp_441",
+    "Name": "Congenital Cardiac Surgeon",
+    "DefaultVisitReasonId": "pc_2WD3yRAM4UGRkzRo08h_dh",
+    "DefaultVisitReasonName": "Congenital Cardiac Surgery Consultation"
+  },
+  {
+    "SpecialtyId": "sp_442",
+    "Name": "Spinal Cord Injury Medicine Specialist",
+    "DefaultVisitReasonId": "pc_qAJNbrMly060eHbpxjz9lx",
+    "DefaultVisitReasonName": "Spine Specialist Consultation"
+  },
+  {
+    "SpecialtyId": "sp_443",
+    "Name": "Musculoskeletal Oncologist",
+    "DefaultVisitReasonId": "pc_22_-_ImbDkW39OPH7482yh",
+    "DefaultVisitReasonName": "Musculoskeletal Oncology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_444",
+    "Name": "Selective Pathologist",
+    "DefaultVisitReasonId": "pc_wVlmOrTNfkmvFvOmnjAyOh",
+    "DefaultVisitReasonName": "Pathology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_445",
+    "Name": "Bioidentical Hormone Doctor",
+    "DefaultVisitReasonId": "pc_5M7-z7TYg0iaStgvxqTgGR",
+    "DefaultVisitReasonName": "Hormonal Imbalance"
+  },
+  {
+    "SpecialtyId": "sp_446",
+    "Name": "Acute Care Nurse Practitioner (Pediatric)",
+    "DefaultVisitReasonId": "pc_4uXOtI3lNk2e5LxcP5XVdR",
+    "DefaultVisitReasonName": "Pediatric Illness"
+  },
+  {
+    "SpecialtyId": "sp_447",
+    "Name": "Gerontology Nurse Practitioner",
+    "DefaultVisitReasonId": "pc_6jJAiz4-uk6rntuMj1TCtB",
+    "DefaultVisitReasonName": "Geriatric Medicine Consultation"
+  },
+  {
+    "SpecialtyId": "sp_448",
+    "Name": "Dermatology Nurse Practitioner",
+    "DefaultVisitReasonId": "pc_-maCOVIWgUGq7_BH1h5nVB",
+    "DefaultVisitReasonName": "Dermatology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_449",
+    "Name": "Neonatal Nurse Practitioner",
+    "DefaultVisitReasonId": "pc_OX06Jzctw0GRTnfWlqZ81h",
+    "DefaultVisitReasonName": "Low Birth Weight"
+  },
+  {
+    "SpecialtyId": "sp_450",
+    "Name": "Oncology Nurse Practitioner (Adult / Gerontology)",
+    "DefaultVisitReasonId": "pc_bc3HWERQ-kyGCtLFshm1iR",
+    "DefaultVisitReasonName": "Oncology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_451",
+    "Name": "Oncology Nurse Practitioner (Pediatric)",
+    "DefaultVisitReasonId": "pc_ZP-jRJzduEOcBdpg9MSZFR",
+    "DefaultVisitReasonName": "Pediatric Oncology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_454",
+    "Name": "Movement Disorder Specialist",
+    "DefaultVisitReasonId": "pc_5_NU9DUBkUmKLekauSqlFh",
+    "DefaultVisitReasonName": "Movement Disorder Consultation"
+  },
+  {
+    "SpecialtyId": "sp_455",
+    "Name": "Neuropsychologist",
+    "DefaultVisitReasonId": "pc_TcRaKUwbEUaayhPqISah3h",
+    "DefaultVisitReasonName": "Neuropsychology Evaluation"
+  },
+  {
+    "SpecialtyId": "sp_456",
+    "Name": "Speech-Language Pathologist",
+    "DefaultVisitReasonId": "pc_FA92fulbYUerRfXtkLX90R",
+    "DefaultVisitReasonName": "Language / Speech Problems"
+  },
+  {
+    "SpecialtyId": "sp_457",
+    "Name": "Diabetes Educator",
+    "DefaultVisitReasonId": "pc_e0SQHvMkB0uZvf1v5n5q5h",
+    "DefaultVisitReasonName": "Diabetes Self-Care"
+  },
+  {
+    "SpecialtyId": "sp_465",
+    "Name": "Registered Nurse",
+    "DefaultVisitReasonId": "pc_FRO-18leckytNKtruw5dLR",
+    "DefaultVisitReasonName": "Illness"
+  },
+  {
+    "SpecialtyId": "sp_466",
+    "Name": "Clinical Nurse Specialist",
+    "DefaultVisitReasonId": "pc_FRO-18leckytNKtruw5dLR",
+    "DefaultVisitReasonName": "Illness"
+  },
+  {
+    "SpecialtyId": "sp_467",
+    "Name": "Dental Hygienist",
+    "DefaultVisitReasonId": "pc_TlZW-r06U0W3pCsIGtSI5B",
+    "DefaultVisitReasonName": "Dental Consultation"
+  },
+  {
+    "SpecialtyId": "sp_468",
+    "Name": "Genetic Counselor",
+    "DefaultVisitReasonId": "pc_bjK3OKQPUUOIX1tYJGkktx",
+    "DefaultVisitReasonName": "Genetics Consultation"
+  },
+  {
+    "SpecialtyId": "sp_469",
+    "Name": "Obstetrician",
+    "DefaultVisitReasonId": "pc_c8fYzXMqDEmb9Or5hxSzLh",
+    "DefaultVisitReasonName": "Prenatal Care"
+  },
+  {
+    "SpecialtyId": "sp_470",
+    "Name": "Wound Care Specialist",
+    "DefaultVisitReasonId": "pc_9JSo02c7gEWVGc6nf887eh",
+    "DefaultVisitReasonName": "Wound Care"
+  },
+  {
+    "SpecialtyId": "sp_471",
+    "Name": "Med-Ped Physician",
+    "DefaultVisitReasonId": "pc_zZWhkaURvEGlZpSimNILaB",
+    "DefaultVisitReasonName": "General Consultation"
+  },
+  {
+    "SpecialtyId": "sp_476",
+    "Name": "Hospitalist",
+    "DefaultVisitReasonId": "pc_p1KdCTTzuU6A04ZjEt837x",
+    "DefaultVisitReasonName": "Hospital Visit"
+  },
+  {
+    "SpecialtyId": "sp_477",
+    "Name": "Thoracic Surgeon",
+    "DefaultVisitReasonId": "pc_v1tsiwqGIEW2Nk6cjfAI3B",
+    "DefaultVisitReasonName": "Thoracic Surgery Consultation"
+  },
+  {
+    "SpecialtyId": "sp_478",
+    "Name": "Hand Therapist",
+    "DefaultVisitReasonId": "pc_2kpeO1jEx0CndpK0iEIUWh",
+    "DefaultVisitReasonName": "Hand Therapy Consultation"
+  },
+  {
+    "SpecialtyId": "sp_485",
+    "Name": "Cardiovascular Surgeon",
+    "DefaultVisitReasonId": "pc_SEnuZwkgcUira7anLPcPMB",
+    "DefaultVisitReasonName": "Cardiovascular Surgery Consultation"
+  },
+  {
+    "SpecialtyId": "sp_486",
+    "Name": "Dental Sleep Specialist",
+    "DefaultVisitReasonId": "pc_MSXtZmZJp02XBQbwsYVntR",
+    "DefaultVisitReasonName": "Dental Sleep Specialist Consultation"
+  },
+  {
+    "SpecialtyId": "sp_487",
+    "Name": "OB-GYN - Resident",
+    "DefaultVisitReasonId": "pc_f42H5oSQ8kGDEh_gSl5PTB",
+    "DefaultVisitReasonName": "OB-GYN Consultation"
+  },
+  {
+    "SpecialtyId": "sp_488",
+    "Name": "Internist - Resident",
+    "DefaultVisitReasonId": "pc_FRO-18leckytNKtruw5dLR",
+    "DefaultVisitReasonName": "Illness"
+  },
+  {
+    "SpecialtyId": "sp_489",
+    "Name": "Family Physician - Resident",
+    "DefaultVisitReasonId": "pc_FRO-18leckytNKtruw5dLR",
+    "DefaultVisitReasonName": "Illness"
+  },
+  {
+    "SpecialtyId": "sp_507",
+    "Name": "Pediatric Neuropsychologist",
+    "DefaultVisitReasonId": "pc_Q4Y1mPN34kmqS7x9Zqu5hx",
+    "DefaultVisitReasonName": "Developmental Pediatric Consultation"
+  },
+  {
+    "SpecialtyId": "sp_508",
+    "Name": "Pediatrician - Resident",
+    "DefaultVisitReasonId": "pc_z-XC40xg6Uq61dk7tWXPUB",
+    "DefaultVisitReasonName": "Pediatric Consultation"
+  },
+  {
+    "SpecialtyId": "sp_509",
+    "Name": "Behavior Analyst",
+    "DefaultVisitReasonId": "pc_DdmwjZeVUUm_QrprbFqrRB",
+    "DefaultVisitReasonName": "Behavior Analyst Consultation"
+  },
+  {
+    "SpecialtyId": "sp_510",
+    "Name": "COVID-19 Vaccination Facility",
+    "DefaultVisitReasonId": "pc_m459Tgq50kGv-faPIAb_3h",
+    "DefaultVisitReasonName": "COVID-19 Vaccine - Initial Dose"
+  },
+  {
+    "SpecialtyId": "sp_511",
+    "Name": "Spine Surgeon",
+    "DefaultVisitReasonId": "pc_XbXd6pGmFUmodydiM0ieXB",
+    "DefaultVisitReasonName": "Spinal Cord Surgery Consultation"
+  },
+  {
+    "SpecialtyId": "sp_512",
+    "Name": "COVID-19 Testing Facility",
+    "DefaultVisitReasonId": "pc_8PF7JFPgy0Gb3VEOpKRYdB",
+    "DefaultVisitReasonName": "COVID-19 Testing"
+  },
+  {
+    "SpecialtyId": "sp_513",
+    "Name": "Urgent Care Clinic",
+    "DefaultVisitReasonId": "pc_1-HljH_mZEWMhEPwa8beER",
+    "DefaultVisitReasonName": "Urgent Care Consultation"
+  },
+  {
+    "SpecialtyId": "sp_514",
+    "Name": "Monkeypox Vaccination Facility",
+    "DefaultVisitReasonId": "pc_7va12KVcM0eR4MlsHvB2cx",
+    "DefaultVisitReasonName": "Monkeypox Vaccine - Initial Dose"
+  },
+  {
+    "SpecialtyId": "sp_515",
+    "Name": "Flu Vaccination Facility",
+    "DefaultVisitReasonId": "pc_aDuGOQitX06bLh4D3p1-Ch",
+    "DefaultVisitReasonName": "Flu Shot"
+  },
+  {
+    "SpecialtyId": "sp_516",
+    "Name": "Lactation Consultant",
+    "DefaultVisitReasonId": "pc_Von7tYRCZEaHKIBBi9Xqnx",
+    "DefaultVisitReasonName": "Lactation Consultation"
+  },
+  {
+    "SpecialtyId": "sp_517",
+    "Name": "Nurse Practitioner (Allergy)",
+    "DefaultVisitReasonId": "pc_fgebPJsoZ0OEw98hapBL5x",
+    "DefaultVisitReasonName": "Allergy Consultation"
+  },
+  {
+    "SpecialtyId": "sp_518",
+    "Name": "Physician Assistant (Dermatology)",
+    "DefaultVisitReasonId": "pc_-maCOVIWgUGq7_BH1h5nVB",
+    "DefaultVisitReasonName": "Dermatology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_519",
+    "Name": "Nurse Practitioner (Cardiology)",
+    "DefaultVisitReasonId": "pc_Vljnj0Fxrkq-bfZx5NuFVB",
+    "DefaultVisitReasonName": "Cardiology Consultation "
+  },
+  {
+    "SpecialtyId": "sp_520",
+    "Name": "Physician Assistant (OB-GYN)",
+    "DefaultVisitReasonId": "pc_jL57dJbLT0y5AGae2izsSR",
+    "DefaultVisitReasonName": "Annual Pap Smear / GYN Exam"
+  },
+  {
+    "SpecialtyId": "sp_521",
+    "Name": "Physician Assistant (Endocrinology)",
+    "DefaultVisitReasonId": "pc_PpYZiRxIFECE0hJF-sfPeh",
+    "DefaultVisitReasonName": "Endocrinology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_522",
+    "Name": "Nurse Practitioner (Dermatology)",
+    "DefaultVisitReasonId": "pc_-maCOVIWgUGq7_BH1h5nVB",
+    "DefaultVisitReasonName": "Dermatology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_523",
+    "Name": "Nurse Practitioner (OB-GYN)",
+    "DefaultVisitReasonId": "pc_jL57dJbLT0y5AGae2izsSR",
+    "DefaultVisitReasonName": "Annual Pap Smear / GYN Exam"
+  },
+  {
+    "SpecialtyId": "sp_524",
+    "Name": "Nurse Practitioner (ENT)",
+    "DefaultVisitReasonId": "pc_6OZ_tCH8E0ipVtz40nv4gx",
+    "DefaultVisitReasonName": "ENT Consultation"
+  },
+  {
+    "SpecialtyId": "sp_525",
+    "Name": "Nurse Practitioner (Gastroenterology)",
+    "DefaultVisitReasonId": "pc_j0mh3-I3QEawzG6h08xrlR",
+    "DefaultVisitReasonName": "Gastroenterology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_526",
+    "Name": "Nurse Practitioner (Pain Management)",
+    "DefaultVisitReasonId": "pc_Wc5AAEjb8UKUK-ChS-hgHh",
+    "DefaultVisitReasonName": "Pain Management Consultation"
+  },
+  {
+    "SpecialtyId": "sp_527",
+    "Name": "Nurse Practitioner (Urology)",
+    "DefaultVisitReasonId": "pc_DTxKUMQzPUSL5IqGVcDMhx",
+    "DefaultVisitReasonName": "Urology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_528",
+    "Name": "Physician Assistant (ENT)",
+    "DefaultVisitReasonId": "pc_6OZ_tCH8E0ipVtz40nv4gx",
+    "DefaultVisitReasonName": "ENT Consultation"
+  },
+  {
+    "SpecialtyId": "sp_529",
+    "Name": "Nurse Practitioner (Podiatry)",
+    "DefaultVisitReasonId": "pc_dLx_aTKEDUyzsFch0FRmpx",
+    "DefaultVisitReasonName": "Foot Consultation"
+  },
+  {
+    "SpecialtyId": "sp_530",
+    "Name": "Nurse Practitioner (Vascular Surgery)",
+    "DefaultVisitReasonId": "pc_AF2As9jDAUyGMlPDE6MtSB",
+    "DefaultVisitReasonName": "Varicose Vein Treatment"
+  },
+  {
+    "SpecialtyId": "sp_531",
+    "Name": "Nurse Practitioner (Psychiatry)",
+    "DefaultVisitReasonId": "pc_mLdGog6Fwkev_8amkyM4uB",
+    "DefaultVisitReasonName": "Psychiatry Consultation"
+  },
+  {
+    "SpecialtyId": "sp_532",
+    "Name": "Physician Assistant (Allergy)",
+    "DefaultVisitReasonId": "pc_fgebPJsoZ0OEw98hapBL5x",
+    "DefaultVisitReasonName": "Allergy Consultation"
+  },
+  {
+    "SpecialtyId": "sp_533",
+    "Name": "Nurse Practitioner (Sleep Medicine)",
+    "DefaultVisitReasonId": "pc_ONiL7KsfL02_hvkt5m3PkR",
+    "DefaultVisitReasonName": "Sleep Problems"
+  },
+  {
+    "SpecialtyId": "sp_534",
+    "Name": "Physician Assistant (Gastroenterology)",
+    "DefaultVisitReasonId": "pc_j0mh3-I3QEawzG6h08xrlR",
+    "DefaultVisitReasonName": "Gastroenterology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_535",
+    "Name": "Physician Assistant (Nutrition)",
+    "DefaultVisitReasonId": "pc_BxZvVM8JOEyzUXOcWDKzWx",
+    "DefaultVisitReasonName": "Weight Loss Consultation"
+  },
+  {
+    "SpecialtyId": "sp_536",
+    "Name": "Physician Assistant (Breast Surgery)",
+    "DefaultVisitReasonId": "pc_lh122SO-80mQPSc6q1ZiPx",
+    "DefaultVisitReasonName": "Breast Surgery Consultation"
+  },
+  {
+    "SpecialtyId": "sp_537",
+    "Name": "Physician Assistant (Cardiology)",
+    "DefaultVisitReasonId": "pc_Vljnj0Fxrkq-bfZx5NuFVB",
+    "DefaultVisitReasonName": "Cardiology Consultation "
+  },
+  {
+    "SpecialtyId": "sp_538",
+    "Name": "Physician Assistant (Vascular Surgery)",
+    "DefaultVisitReasonId": "pc_AF2As9jDAUyGMlPDE6MtSB",
+    "DefaultVisitReasonName": "Varicose Vein Treatment"
+  },
+  {
+    "SpecialtyId": "sp_539",
+    "Name": "Physician Assistant (Orthopedics)",
+    "DefaultVisitReasonId": "pc_T1T3MOA0kUuE201i1ZfIWR",
+    "DefaultVisitReasonName": "Orthopedic Consultation"
+  },
+  {
+    "SpecialtyId": "sp_540",
+    "Name": "Physician Assistant (Pain Management)",
+    "DefaultVisitReasonId": "pc_Wc5AAEjb8UKUK-ChS-hgHh",
+    "DefaultVisitReasonName": "Pain Management Consultation"
+  },
+  {
+    "SpecialtyId": "sp_541",
+    "Name": "Physician Assistant (Psychiatry)",
+    "DefaultVisitReasonId": "pc_mLdGog6Fwkev_8amkyM4uB",
+    "DefaultVisitReasonName": "Psychiatry Consultation"
+  },
+  {
+    "SpecialtyId": "sp_542",
+    "Name": "Physician Assistant (Pulmonology)",
+    "DefaultVisitReasonId": "pc_MmupBi07Wk26y4j6LCNcGB",
+    "DefaultVisitReasonName": "Pulmonology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_543",
+    "Name": "Physician Assistant (Sleep Medicine)",
+    "DefaultVisitReasonId": "pc_ONiL7KsfL02_hvkt5m3PkR",
+    "DefaultVisitReasonName": "Sleep Problems"
+  },
+  {
+    "SpecialtyId": "sp_544",
+    "Name": "Physician Assistant (Urology)",
+    "DefaultVisitReasonId": "pc_DTxKUMQzPUSL5IqGVcDMhx",
+    "DefaultVisitReasonName": "Urology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_545",
+    "Name": "Physician Assistant (Rheumatology)",
+    "DefaultVisitReasonId": "pc_BKnsAepKBkGG_Zine11pdB",
+    "DefaultVisitReasonName": "Arthritis"
+  },
+  {
+    "SpecialtyId": "sp_546",
+    "Name": "Nurse Practitioner (Neurology)",
+    "DefaultVisitReasonId": "pc_QFRp0PMZ9ku7QkeT0F8O5h",
+    "DefaultVisitReasonName": "Neurology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_547",
+    "Name": "Physician Assistant (Psychology)",
+    "DefaultVisitReasonId": "pc_rIYw8hp_3Eed1R1-e2iydh",
+    "DefaultVisitReasonName": "Psychotherapy"
+  },
+  {
+    "SpecialtyId": "sp_548",
+    "Name": "Nurse Practitioner (Oncology)",
+    "DefaultVisitReasonId": "pc_bc3HWERQ-kyGCtLFshm1iR",
+    "DefaultVisitReasonName": "Oncology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_549",
+    "Name": "Physician Assistant (Pediatrics)",
+    "DefaultVisitReasonId": "pc_z-XC40xg6Uq61dk7tWXPUB",
+    "DefaultVisitReasonName": "Pediatric Consultation"
+  },
+  {
+    "SpecialtyId": "sp_550",
+    "Name": "Nurse Practitioner (Orthopedics)",
+    "DefaultVisitReasonId": "pc_T1T3MOA0kUuE201i1ZfIWR",
+    "DefaultVisitReasonName": "Orthopedic Consultation"
+  },
+  {
+    "SpecialtyId": "sp_551",
+    "Name": "Physician Assistant (Neurosurgery)",
+    "DefaultVisitReasonId": "pc_cy3425zVYEGm3N2I6xwoFR",
+    "DefaultVisitReasonName": "Neurosurgery Consultation"
+  },
+  {
+    "SpecialtyId": "sp_552",
+    "Name": "Nurse Practitioner (Pediatrics)",
+    "DefaultVisitReasonId": "pc_z-XC40xg6Uq61dk7tWXPUB",
+    "DefaultVisitReasonName": "Pediatric Consultation"
+  },
+  {
+    "SpecialtyId": "sp_553",
+    "Name": "Physician Assistant (Neurology)",
+    "DefaultVisitReasonId": "pc_QFRp0PMZ9ku7QkeT0F8O5h",
+    "DefaultVisitReasonName": "Neurology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_554",
+    "Name": "Nurse Practitioner (Psychology)",
+    "DefaultVisitReasonId": "pc_rIYw8hp_3Eed1R1-e2iydh",
+    "DefaultVisitReasonName": "Psychotherapy"
+  },
+  {
+    "SpecialtyId": "sp_555",
+    "Name": "Nurse Practitioner (Rheumatology)",
+    "DefaultVisitReasonId": "pc_BKnsAepKBkGG_Zine11pdB",
+    "DefaultVisitReasonName": "Arthritis"
+  },
+  {
+    "SpecialtyId": "sp_556",
+    "Name": "Nurse Practitioner (Hepatology)",
+    "DefaultVisitReasonId": "pc_R5KIz5GsH0WvR9yWUTueaB",
+    "DefaultVisitReasonName": "Hepatitis"
+  },
+  {
+    "SpecialtyId": "sp_557",
+    "Name": "Nurse Practitioner (Chiropractic)",
+    "DefaultVisitReasonId": "pc_ScjCEdje7U-bsLzXVK-QSh",
+    "DefaultVisitReasonName": "Chiropractic Consultation"
+  },
+  {
+    "SpecialtyId": "sp_558",
+    "Name": "Nurse Practitioner (Pulmonology)",
+    "DefaultVisitReasonId": "pc_MmupBi07Wk26y4j6LCNcGB",
+    "DefaultVisitReasonName": "Pulmonology Consultation"
+  },
+  {
+    "SpecialtyId": "sp_559",
+    "Name": "Nurse Practitioner (Psychotherapy)",
+    "DefaultVisitReasonId": "pc_VkPF8dBXGkuHLA3Pwrm_Qh",
+    "DefaultVisitReasonName": "Psychotherapy Intake / Initial Visit"
+  },
+  {
+    "SpecialtyId": "sp_560",
+    "Name": "Immediate Care Clinic",
+    "DefaultVisitReasonId": "pc_FRO-18leckytNKtruw5dLR",
+    "DefaultVisitReasonName": "Illness"
+  },
+  {
+    "SpecialtyId": "sp_561",
+    "Name": "Orthopedic Immediate Care Clinic",
+    "DefaultVisitReasonId": "pc_T1T3MOA0kUuE201i1ZfIWR",
+    "DefaultVisitReasonName": "Orthopedic Consultation"
+  },
+  {
+    "SpecialtyId": "sp_562",
+    "Name": "Pediatric Immediate Care Clinic",
+    "DefaultVisitReasonId": "pc_z-XC40xg6Uq61dk7tWXPUB",
+    "DefaultVisitReasonName": "Pediatric Consultation"
+  },
+  {
+    "SpecialtyId": "sp_563",
+    "Name": "Retail Clinic",
+    "DefaultVisitReasonId": "pc_zZWhkaURvEGlZpSimNILaB",
+    "DefaultVisitReasonName": "General Consultation"
+  },
+  {
+    "SpecialtyId": "sp_564",
+    "Name": "Aesthetician / Esthetician",
+    "DefaultVisitReasonId": "pc_6yp6G9Mf0UCmN88I7ULflh",
+    "DefaultVisitReasonName": "Aesthetician / Esthetician Consultation"
+  },
+  {
+    "SpecialtyId": "sp_565",
+    "Name": "Nurse Injector",
+    "DefaultVisitReasonId": "pc_WxicKn6KqEm8pq6wg-gnuh",
+    "DefaultVisitReasonName": "Botox Treatment"
+  },
+  {
+    "SpecialtyId": "sp_566",
+    "Name": "Mammography Facility",
+    "DefaultVisitReasonId": "pc_Xx6uzo8IU0WCsWaf5GxRmh",
+    "DefaultVisitReasonName": "Screening Mammogram (No Breast Cancer Symptoms)"
+  },
+  {
+    "SpecialtyId": "sp_567",
+    "Name": "X-Ray Facility",
+    "DefaultVisitReasonId": "pc_14kCx1-3wUyHEdJ0ITyIUR",
+    "DefaultVisitReasonName": "X-ray"
+  },
+  {
+    "SpecialtyId": "sp_568",
+    "Name": "CT Scan Facility",
+    "DefaultVisitReasonId": "pc_4T2_erOyZ0-zOVJaoicUkh",
+    "DefaultVisitReasonName": "CT Scan "
+  },
+  {
+    "SpecialtyId": "sp_569",
+    "Name": "MRI Facility",
+    "DefaultVisitReasonId": "pc_auNUI1YAsES0Tqkz7cc6lR",
+    "DefaultVisitReasonName": "MRI Scan"
+  },
+  {
+    "SpecialtyId": "sp_570",
+    "Name": "Ultrasound Facility",
+    "DefaultVisitReasonId": "pc_JdVDnHPhTEOoatEjtM4ZzR",
+    "DefaultVisitReasonName": "Ultrasound Scan"
+  }
+]

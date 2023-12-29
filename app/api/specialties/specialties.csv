@@ -1,0 +1,308 @@
+SpecialtyId,Name,DefaultVisitReasonId,DefaultVisitReasonName
+sp_98,Dentist,pc_TlZW-r06U0W3pCsIGtSI5B,Dental Consultation
+sp_99,Internist,pc_FRO-18leckytNKtruw5dLR,Illness
+sp_100,Pediatrician,pc_z-XC40xg6Uq61dk7tWXPUB,Pediatric Consultation
+sp_101,Dermatologist,pc_-maCOVIWgUGq7_BH1h5nVB,Dermatology Consultation
+sp_102,Family Physician,pc_FRO-18leckytNKtruw5dLR,Illness
+sp_104,OB-GYN,pc_jL57dJbLT0y5AGae2izsSR,Annual Pap Smear / GYN Exam
+sp_105,Cardiologist,pc_Vljnj0Fxrkq-bfZx5NuFVB,"Cardiology Consultation "
+sp_106,Gastroenterologist,pc_j0mh3-I3QEawzG6h08xrlR,Gastroenterology Consultation
+sp_107,Nephrologist,pc_FigopXAepEa4PqiwkeV0jh,Nephrology Consultation
+sp_108,Pulmonologist,pc_MmupBi07Wk26y4j6LCNcGB,Pulmonology Consultation
+sp_109,Rheumatologist,pc_BKnsAepKBkGG_Zine11pdB,Arthritis
+sp_110,Hematologist,pc_zMSgQy4xfka7QiAof3NFLh,Hematology Consultation
+sp_111,Oncologist,pc_bc3HWERQ-kyGCtLFshm1iR,Oncology Consultation
+sp_112,Cardiac Electrophysiologist,pc_NUf_ioOIoka-veK6HCewMh,ECG / EKG
+sp_113,Neurosurgeon,pc_cy3425zVYEGm3N2I6xwoFR,Neurosurgery Consultation
+sp_114,Infectious Disease Specialist,pc_6930bt-I60ukmsonVnnj3h,Infection Consultation
+sp_115,Nuclear Medicine Specialist,pc_KrRgRx-THkm6YWpH3O0nyR,PET / CT Scan Report
+sp_116,Ophthalmologist,pc_YWAS2niyPE2v4zui4akrWB,General Eye Consultation
+sp_117,Orthopedic Surgeon,pc_T1T3MOA0kUuE201i1ZfIWR,Orthopedic Consultation
+sp_118,Pathologist,pc_wVlmOrTNfkmvFvOmnjAyOh,Pathology Consultation
+sp_120,Plastic Surgeon,pc_FCBcRW5SFEOzhHRZTTvK5x,Plastic Surgery Consultation
+sp_121,Podiatrist,pc_dLx_aTKEDUyzsFch0FRmpx,Foot Consultation
+sp_122,Psychiatrist,pc_mLdGog6Fwkev_8amkyM4uB,Psychiatry Consultation
+sp_123,Radiologist,pc_14kCx1-3wUyHEdJ0ITyIUR,X-ray
+sp_124,Radiation Oncologist,pc_7ONizbJEUUG28s6iKZrhzx,Radiation Oncology Consultation
+sp_126,Urologist,pc_DTxKUMQzPUSL5IqGVcDMhx,Urology Consultation
+sp_127,Endocrinologist,pc_PpYZiRxIFECE0hJF-sfPeh,Endocrinology Consultation
+sp_128,Neurologist,pc_QFRp0PMZ9ku7QkeT0F8O5h,Neurology Consultation
+sp_129,Sports Medicine Specialist,pc_6EAgilerx0qjJHpTp_ik-x,Sports Injury
+sp_130,"Ear, Nose & Throat Doctor",pc_6OZ_tCH8E0ipVtz40nv4gx,ENT Consultation
+sp_132,Allergist,pc_fgebPJsoZ0OEw98hapBL5x,Allergy Consultation
+sp_133,Colorectal Surgeon,pc_CWKfhzdHv0aMXIgSP_Kn3B,Colon Cancer Screening
+sp_134,Endodontist,pc_fsu-qCYl7064W9TZcQn0DB,Root Canal
+sp_135,Orthodontist,pc_pQHZ8-tjRUqjEiVc2B16zR,Orthodontic Consultation
+sp_136,Periodontist,pc_D12_FBb-0E2zvgSfkeLfUB,Periodontist Consultation
+sp_137,Prosthodontist,pc_bWwTFhNqIEyx26npLz8nFx,Bridge
+sp_139,Pain Management Specialist,pc_Wc5AAEjb8UKUK-ChS-hgHh,Pain Management Consultation
+sp_141,Pediatric Surgeon,pc_SQHMp9MQWEKPwhU7HpX3BB,Pediatric Surgery Consultation
+sp_142,Vascular Surgeon,pc_7cryxcnAqkmmgC8g0KdINh,"Vascular Surgery "
+sp_143,Cardiothoracic Surgeon,pc_SVHMZ-OLf0y-qSt1t4raix,Cardiothoracic Surgery Consultation
+sp_144,Hand Surgeon,pc_DLyOVDs86ky-WjC-gd1l3x,Hand Surgery Consultation
+sp_145,Anesthesiologist,pc_Wc5AAEjb8UKUK-ChS-hgHh,Pain Management Consultation
+sp_146,Emergency Medicine Physician,pc_MrafVWxZAU6AnPlxOrrb8x,Emergency Consultation
+sp_148,Geneticist,pc_bjK3OKQPUUOIX1tYJGkktx,Genetics Consultation
+sp_151,Oral Surgeon,pc_TlZW-r06U0W3pCsIGtSI5B,Dental Consultation
+sp_152,Pediatric Dentist,pc_Wqd-Q62VLU6ZS_dF9-EnRh,Pediatric Dentist Consultation
+sp_153,Primary Care Doctor,pc_FRO-18leckytNKtruw5dLR,Illness
+sp_154,Immunologist,pc_7caBglpTOkS5bYGSWwQq2x,Auto-immune Disorder
+sp_155,Sleep Medicine Specialist,pc_ONiL7KsfL02_hvkt5m3PkR,Sleep Problems
+sp_156,Chiropractor,pc_ScjCEdje7U-bsLzXVK-QSh,Chiropractic Consultation
+sp_157,Optometrist,pc_XtIIIaJ2qkmCvfRfrNTCmh,Eyeglasses
+sp_158,Surgeon,pc_3HZc8u45d0iyTSh4V_dkzR,Surgery Consultation
+sp_159,Microbiologist,pc_Gc8FKs9oKEmN2Tn7wf0VvB,Microbiology Evaluation
+sp_160,Aesthetic Surgeon,pc_WxicKn6KqEm8pq6wg-gnuh,Botox Treatment
+sp_161,Craniofacial Surgeon,pc_FU78J-tqR0WbHak8pXWNHR,Craniofacial Surgery Consultation
+sp_164,Head & Neck Surgeon,pc_n0c5jRypF0CBOwXoNyERRh,Neck Surgery Consultation
+sp_165,Microvascular Surgeon,pc_aH7FQmbVcEKMJBSIUQQfCx,Microvascular Surgery
+sp_167,Facial Plastic & Reconstructive Surgeon,pc_Qoff_3dot0-TYSu_RK1G1B,Face Reconstructive Surgery Consultation
+sp_169,Neuro-Otologist,pc__Cz5OlJbSU2ag5hc-UlyrB,Dizziness
+sp_170,Sinus Surgeon / Rhinologist,pc_o5HfMdgR9kKQ_GZ2A23Nrx,Nose Surgery
+sp_171,Pediatric Otolaryngologist,pc_opYejwP5qEmqehxK9otldR,Pediatric General ENT Consultation
+sp_173,Geriatrician,pc_bLJN61HBWEW-muILzFHlJh,Senior Visit
+sp_176,Ocular Oncologist,pc_cnA4N0z7P0ueShMGKbbmfR,Ocular Oncology Consultation
+sp_177,Ocular Pathologist,pc_FsUNNXkdvUSxrFyWXhEZdR,Ocular Pathology Consultation
+sp_178,"Ophthalmic Plastic, Orbital & Reconstructive Surgeon",pc_pVrIHze7E067YgpX3QxD3B,Anti-Aging Treatment
+sp_179,Ophthalmic Pathologist,pc_1Q45jk37JUmMIra30nwFeR,Ophthalmic Pathology Consultation
+sp_180,Neuro-Ophthalmologist,pc_vuFz9DBReki8LdfZwD_fmR,Neuro-Ophthalmology Consultation
+sp_181,Retina Specialist (Medical),pc_ny6PCjzMA0ecUqHRdlI2eh,Retina Consultation
+sp_182,Retina & Vitreous Surgeon,pc_gnie5N5HTk-d6abgfsHm8h,Retina Surgery Consultation
+sp_183,Cornea & External Diseases Specialist,pc_N9DG2-nUWkCea6sSnYGBbh,Contact Lenses
+sp_184,Pediatric / Strabismus Eye Doctor,pc_1sn4gGEbF0WJJS8a4fenDh,Pediatric Eye Consultation
+sp_185,Hand & Microsurgery Specialist,pc_rDX3UcMDbU2HlWEdSnuPZx,Hand Problems
+sp_186,Oculoplastic Surgeon,pc_X6qaY6DS-EuC_TRIOftHIx,Oculoplastic Surgery Consultation
+sp_193,Pediatric Anesthesiologist,pc_4ukrLWHdUU2DqT9GvWNEAh,Pediatric Pre-Surgery Consultation
+sp_194,Neuro-Radiologist,pc_QZ9vo0p8x0axjhUNeGitMR,MRI Report - Brain
+sp_197,Laryngologist,pc_vSFc7WzSXUi8LgJ__s80uh,Hoarseness
+sp_212,Glaucoma Specialist,pc_X5xIx_dVeU61AtrSmZfT5R,Glaucoma Consultation
+sp_213,Uveitis Specialist,pc_UYxmXHZ02kG7axq44BrXgR,Uveitis Consultation
+sp_221,Refractive Surgeon,pc_4597jzEuDkGBWaS51CBEuh,Refractive Surgery Consultation
+sp_234,Maternal Fetal Medicine Specialist,pc_wG0w5miIXEKgLz4ETJtTYR,Pregnancy Follow Up
+sp_235,Gynecologic Oncologist,pc_Tf_CZbWx50WpWk0l516GCh,Ovarian Cancer
+sp_237,Urogynecologist,pc_VTTMCqawEkm5B82NC7IcRB,Incontinence
+sp_239,Behavioral Pediatrics Specialist,pc_jDpJ4emdS0qUpAxSy3j1QR,Autism
+sp_240,Pediatric Cardiologist,pc_OVQeyjfCn0yLv41Oy-vstR,Congenital Heart Disease
+sp_241,Pediatric Critical Care Specialist,pc_Sq34dihAYUyYNWz563XtwR,Pediatric Critical Care Consultation
+sp_242,Pediatric Endocrinologist,pc_PLB_O-9RsES2KPwF6c6A6x,Pediatric Endocrinology Consultation
+sp_243,Pediatric Gastroenterologist,pc_uj_SHDmOmUOo7L7BpSUU5h,Gastroscopy
+sp_244,Pediatric Hematologist,pc_oKPJL0HaxUe3yHVumNL6TR,Pediatric Hematology Consultation
+sp_245,Pediatric Oncologist,pc_ZP-jRJzduEOcBdpg9MSZFR,Pediatric Oncology Consultation
+sp_246,Pediatric Infectious Disease Specialist,pc_beghvAtVVkefejDXnf7tNx,Pediatric Lyme Disease
+sp_247,Pediatric Nephrologist,pc_PX4oxOX-xkeHTBfLLUn6ih,Congenital Kidney Disease
+sp_248,Pediatric Pulmonologist,pc_F4X_lMkB702Djes7iKY5Gh,"Cystic Fibrosis "
+sp_250,Child and Adolescent Psychiatrist,pc_fTgcFFRYTUil20_O3ls20B,Addiction / Substance Abuse
+sp_252,Neonatal-Perinatal Medicine Specialist,pc_wLtYF5Bn20uCF75a3_WY8B,Neonatologist Consultation
+sp_253,Adolescent Medicine Specialist,pc_xYigLhZQW0WVhI2BPPO5qR,Adolescent Medicine Consultation
+sp_255,Breast Surgeon,pc_KjuombbdxkSp0DGrnkrPHh,Breast Surgery
+sp_256,Bariatric Surgeon,pc_BxZvVM8JOEyzUXOcWDKzWx,Weight Loss Consultation
+sp_258,Trauma Surgeon,pc_Opg2I2cPf02Jd3EGKpaYXB,Fracture
+sp_261,Pediatric Neurologist,pc_KgKmIhO7yke-PPTyAxno1B,Pediatric Neurology Consultation
+sp_265,Pediatric Radiologist,pc_dRM4KMJzd0-fCs65NbISZR,CT Scan Report - Head
+sp_268,Interventional Radiologist,pc_lyEH-12yr0OWR0g3YPsOQR,Interventional Radiology Consultation
+sp_271,Abdominal Radiologist,pc_F3uC9APiOU-Mb4bUHB9N6R,CT Scan Report - Other
+sp_272,Reconstructive Surgeon,pc_AqMR0XZ4Y0GpmxGZlJ2SXh,Reconstructive Surgery Consultation
+sp_273,Cardiothoracic Radiologist,pc__ZTYizuS3kWaUlq35DfXhR,Coronary Angiography
+sp_274,Chemical Pathology Specialist,pc_SRRsYKYw9EuzvE4mZNSe7x,Chemical Pathology Consultation
+sp_275,Clinical Neurophysiologist,pc_10Zt4E-6g0y1Te3Wtzibwx,Nerve Conduction Studies (NCS)
+sp_276,Skin Pathology Specialist (Dermatopathology),pc_ZmGgizTDHE6s1mSlYlgenR,Skin Pathology Consultation
+sp_277,Interventional Neuro-Radiologist,pc_otcTc43eBEeQh7vzNk2BGR,Stent Consultation
+sp_278,Critical Care Specialist,pc_BUoo0FUgM0-K013iNBaI7B,Critical Care Consultation
+sp_279,Foot & Ankle Specialist,pc_wWed6YKAj0eUfnHC3x997x,Foot Problems
+sp_280,Forensic Psychiatrist,pc_FyLYs2bvFkuUBPnn7MtWCR,Mental Competency Evaluation
+sp_281,Geriatric Psychiatrist,pc_89GZHVAPxkuEvbluQj7RJR,Alzheimer's Disease
+sp_283,Medical Biochemical Geneticist,pc_8_lT8O8xxUqdNSJf_fgpRB,Biochemical Genetics Consultation
+sp_284,Molecular Genetic Pathologist,pc_W2uh38b9I0eVLMxd-Ty9iB,Molecular Genetics Consultation
+sp_286,Musculoskeletal Radiologist,pc_14kCx1-3wUyHEdJ0ITyIUR,X-ray
+sp_287,Neuromuscular Specialist,pc_FA190xKEQk6puqb9nH-XyB,Movement Issues
+sp_288,Neuropathologist,pc_Rht90njSPkKRvPAEDEXgjR,Neuropathology Consultation
+sp_290,Spine Specialist,pc_qAJNbrMly060eHbpxjz9lx,Spine Specialist Consultation
+sp_296,Pediatric Sports Medicine Specialist,pc_PV_3VYt1eU2-Qh6Rr33Kfx,Bruise / Contusion
+sp_297,Procedural Dermatology Specialist,pc_PjUzcB0FkkK5awf_iHNsOR,Mohs Surgery
+sp_298,Addiction Specialist,pc_fTgcFFRYTUil20_O3ls20B,Addiction / Substance Abuse
+sp_299,Psychosomatic Medicine Specialist,pc_fTgcFFRYTUil20_O3ls20B,Addiction / Substance Abuse
+sp_301,Cytopathologist,pc_bqMgPhGzFUe4eMv5J-jbqR,Cytopathology Consultation
+sp_304,Pediatric Pathologist,pc_LA6JtkwElE6tuN0mos4H2h,Pediatric Pathology Consultation
+sp_309,Pediatric Orthopedic Surgeon,pc_rA3EvOAcAUCjdW2fkdAo4h,Pediatric Orthopedics Consultation
+sp_310,Cardiothoracic Anesthesiologist,pc_MXRLY9kCLEWld7kixRnfgB,Pre-Surgery Consultation
+sp_311,Developmental Pediatrics Specialist,pc_F2DJXxtey0OgX0oEn1mp9x,Hearing Problems
+sp_312,Pediatric Urologist,pc_7nKvcikT50m7Esb4Fnyc1R,Pediatric Urology Consultation
+sp_318,Neurodevelopmental Disabilities Specialist,pc_jDpJ4emdS0qUpAxSy3j1QR,Autism
+sp_319,Vascular Neurology Specialist,pc_2DsicA_s8UOgytZb7rhmpB,Stroke Check-up / Prevention
+sp_320,Pediatric Rehabilitation Specialist,pc_BwLyqcMvgUCtGkIekY7U7x,Physical Medicine / Rehab Consultation
+sp_322,Toxicologist,pc_FzDtZdfGtEqhkvqkgUJm6x,Toxicology Consultation
+sp_324,Hyperbaric Treatment Specialist,pc_R-1euGMmtEqUIMxIMOY7MR,Decompression Sickness
+sp_326,Transplant Specialist,pc_RYWBOHoS40-UTtygI6Zkch,Transplantation Consultation
+sp_327,Pediatric Transplant Specialist,pc_JIFRnUpv_0KNUGpxX82WdB,Pediatric Transplant Consultation
+sp_333,Cosmetic Dentist,pc__sbHUVqotku5msuvXKmpRh,Teeth Whitening
+sp_334,Dental Pain Specialist,pc_ur4dSExMqEOUnNB25lUNPB,Dental Emergency
+sp_335,Physical Therapist,pc_2rvYrf9iikmawWs5xMw7IR,Physical Therapy Consultation
+sp_336,Physiatrist,pc_BwLyqcMvgUCtGkIekY7U7x,Physical Medicine / Rehab Consultation
+sp_337,Psychologist,pc_rIYw8hp_3Eed1R1-e2iydh,Psychotherapy
+sp_338,Pediatric Dermatologist,pc_S3jS6nwQq0SLzUGj-O45lx,Pediatric Acne
+sp_339,Reproductive Endocrinologist,pc_C_JNjmk-6keUz1xF8yvWOx,Infertility Consultation
+sp_341,Pediatric Neurosurgeon,pc_NUA_hQT6hEmAxioZfiZ7vR,Pediatric Neurosurgery Consultation
+sp_343,Travel Medicine Specialist,pc_GO73Y-lj-UuAuj-KSv6lYh,Pre-Travel Consultation
+sp_344,Preventive Medicine Specialist,pc_NcfEZ1FfMkKuX-jdDAFvQh,Preventive Medicine Consultation
+sp_345,Acupuncturist,pc_eWQnfg4qPUSe83q8DqzBph,Acupuncture
+sp_346,Audiologist,pc_F2DJXxtey0OgX0oEn1mp9x,Hearing Problems
+sp_347,Pediatric Allergist,pc_rwMGP9XfCEeW5UgLz-4xjx,Pediatric Allergy Consultation
+sp_351,Pediatric Rheumatologist,pc_usIllFN1CUejbvIZIko4SB,Pediatric Rheumatologist Consultation
+sp_352,Psychotherapist,pc_VkPF8dBXGkuHLA3Pwrm_Qh,Psychotherapy Intake / Initial Visit
+sp_353,Shoulder & Elbow Surgeon,pc_c2TMoMIXoESzotVV4a5F0B,Elbow Problems
+sp_354,Medical Ethicist,pc_BWKFTbp8JUioRH1vA0Gyeh,Medical Ethics Discussion
+sp_355,Interventional Cardiologist,pc_0GwNcmCbPECT_e1vrPWO0x,Carotid Doppler
+sp_357,Occupational Medicine Specialist,pc_n7ZylAB7TUOYAOXEgW-NpB,Functional Capacity Evaluation (Physical)
+sp_359,Dietitian,pc_BxZvVM8JOEyzUXOcWDKzWx,Weight Loss Consultation
+sp_360,Hepatologist,pc_R5KIz5GsH0WvR9yWUTueaB,Hepatitis
+sp_362,Midwife,pc_9cYi0oM8ukqMUjzO5MCgSh,Pregnancy Problem
+sp_363,Hip and Knee Surgeon,pc_NYyA_I3Aw0eOa_Eps3sgZR,Knee Pain
+sp_364,Bariatric Physician,pc_BxZvVM8JOEyzUXOcWDKzWx,Weight Loss Consultation
+sp_366,Proctologist,pc_hNS5tVvIHkSBuCKrDuMVjx,Proctology Consultation
+sp_367,Cosmetic Dermatologist,pc_pVrIHze7E067YgpX3QxD3B,Anti-Aging Treatment
+sp_368,Gynecologist,pc_jL57dJbLT0y5AGae2izsSR,Annual Pap Smear / GYN Exam
+sp_370,Hospice and Palliative Medicine Specialist,pc_bdTX1w03D0K264-Sj2EBmR,Pain Control
+sp_372,Maxillofacial Prosthodontist,pc_UP_ieisNAkaoVx9QMI71qx,Prosthodontist Consultation
+sp_373,Naturopathic Doctor,pc_FRO-18leckytNKtruw5dLR,Illness
+sp_374,Occupational Therapist,pc_AzuCINZywUm7bDnbjom3Nx,Occupational Therapy Consultation
+sp_376,Optometric Glaucoma Specialist,pc_X5xIx_dVeU61AtrSmZfT5R,Glaucoma Consultation
+sp_379,Pediatric Cardiothoracic Surgeon,pc_jIy4FHThoka0MiOZ-L6tHx,Pediatric Cardiothoracic Surgery Consultation
+sp_380,Pediatric Pain Management Specialist,pc_9FHh9cWIek-YzEhblOPsXR,Pediatric Pain Management
+sp_381,Physician Assistant,pc_zZWhkaURvEGlZpSimNILaB,General Consultation
+sp_383,Neuropsychiatrist,pc_Xdcmv_WxHEWB-j7j9kZwcB,Neuropsychiatry Consultation
+sp_384,Nutritionist,pc_BxZvVM8JOEyzUXOcWDKzWx,Weight Loss Consultation
+sp_390,Surgical Oncologist,pc_pkmylSrjxUGga2Y1L9nuLB,Surgical Oncology
+sp_393,Pediatric Emergency Medicine Specialist,pc_10rxlGG6DUaFELOx96YYxB,"Pediatric Emergency "
+sp_394,Epilepsy Specialist,pc_rQNT0KM5AUu77HqJG041Lh,Seizures / Epilepsy
+sp_395,Neuromusculoskeletal Medicine & OMM Specialist,pc_DMgwU6Npd0OpCxJIvs5rBB,Osteopathic Consultation
+sp_399,Nurse Practitioner,pc_FRO-18leckytNKtruw5dLR,Illness
+sp_400,Adult Nurse Practitioner,pc_FRO-18leckytNKtruw5dLR,Illness
+sp_401,Family Nurse Practitioner,pc_FRO-18leckytNKtruw5dLR,Illness
+sp_402,Pediatric Nurse Practitioner,pc_z-XC40xg6Uq61dk7tWXPUB,Pediatric Consultation
+sp_403,Women's Health Nurse Practitioner,pc_jL57dJbLT0y5AGae2izsSR,Annual Pap Smear / GYN Exam
+sp_404,OB-GYN Nurse Practitioner,pc_jL57dJbLT0y5AGae2izsSR,Annual Pap Smear / GYN Exam
+sp_405,Adult Psychiatric & Mental Health Nurse Practitioner,pc_ys0YO4BWiUi-MJ3DUNuXeB,Depression
+sp_406,Family Psychiatric & Mental Health Nurse Practitioner,pc_mLdGog6Fwkev_8amkyM4uB,Psychiatry Consultation
+sp_407,Mental Health Nurse Practitioner,pc_ys0YO4BWiUi-MJ3DUNuXeB,Depression
+sp_408,Urological Surgeon,pc_aBwdvp7jAUu9KbZJ7m67Rh,Urological Surgery Consultation
+sp_412,Hip Surgeon,pc_oiLtD9NVB0asgdnIF29lAR,Hip Problems
+sp_413,Knee Surgeon,pc_ycr3-AJHOEKsvOifZlU1kR,Knee Problems
+sp_414,Elbow Surgeon,pc_c2TMoMIXoESzotVV4a5F0B,Elbow Problems
+sp_415,Shoulder Surgeon,pc_dFrJB1lVKkGCldQehJHe4R,Shoulder Problem
+sp_416,Child and Adolescent Psychologist,pc_vy8i--f3YE-wX45FJqloRB,Adolescent / Teen Issues
+sp_418,Acute Care Nurse Practitioner (Adult / Gerontology),pc_FRO-18leckytNKtruw5dLR,Illness
+sp_419,Endocrine Surgeon,pc_dG7ZRUbKwEWC8-sprkW_hB,Endocrine Surgery Consultation
+sp_420,Integrative Health Medicine Specialist,pc_gDD7-VRLJUqwKIrPav5oux,Wellness Care
+sp_421,Burn Surgeon,pc_cXapYRjWv0Cn_IRqT_b9YB,Burn Consultation
+sp_422,Advanced Heart Failure and Transplant Cardiologist,pc_f86mCGhyJki6wRs3GLVPeR,Heart Failure / Transplant Consultation
+sp_423,Pediatric Sleep Medicine Specialist,pc_VJeyx0wrx0q0eWbjqr6Deh,Pediatric Sleep Problems
+sp_425,Oral and Maxillofacial Pathologist,pc_iItFINRSMUeANom29LO8WR,Tongue Disorder
+sp_426,Oral and Maxillofacial Radiologist,pc_chd7k-si7kOOSZrWTVE-BR,CT Scan - Teeth (Dental Scan)
+sp_427,Nuclear Radiologist,pc_3OxYmAG4CEqx4vmm68h_hh,Radioimmunotherapy
+sp_428,Endovascular Surgical Neuroradiologist,pc_rMQR0Z-Ojk23dPyq_81Sgx,Cerebrovascular Disease Consultation
+sp_429,Vascular Interventional Radiologist,pc_otcTc43eBEeQh7vzNk2BGR,Stent Consultation
+sp_430,Obstetric Anesthesiologist,pc_WEDCB8UlhUiBgCfbxLzXMh,Labor Pain
+sp_431,Diagnostic Radiologist,pc_F3uC9APiOU-Mb4bUHB9N6R,CT Scan Report - Other
+sp_432,Adult Congenital Heart Disease Specialist,pc_OVQeyjfCn0yLv41Oy-vstR,Congenital Heart Disease
+sp_433,Surgical Critical Care Specialist,pc__IfaBf3w60W7rzmz7pJNmB,Surgical Emergency
+sp_434,Pulmonary Diseases and Critical Care Medicine Specialist,pc_MmupBi07Wk26y4j6LCNcGB,Pulmonology Consultation
+sp_435,Transplant Hepatologist,pc_AYYd_qjOp0iNw2uUzHclkR,Liver Transplant Consultation
+sp_436,Medical Genetics and Genomics Specialist,pc_Si7Kiz6pFkOzmZ9afg1Qgx,Genetic Testing
+sp_437,Brain Injury Medicine Specialist,pc_j9sYp3MZpkGZAuMpAfAxHB,Brain Trauma / Injury
+sp_438,Marriage and Family Therapist,pc_Idvxg4_Pq0mSORYOwdFJXh,Family Therapy/ Marriage Therapy
+sp_439,Adult Reconstructive Orthopedic Surgeon,pc_HceHhP2IzEKsb5bVoEY71R,Orthopedic Reconstruction Consultation
+sp_440,Orthopedic Trauma Specialist,pc_v-4naKSYakycmDgs2_N2WB,Orthopedic Trauma
+sp_441,Congenital Cardiac Surgeon,pc_2WD3yRAM4UGRkzRo08h_dh,Congenital Cardiac Surgery Consultation
+sp_442,Spinal Cord Injury Medicine Specialist,pc_qAJNbrMly060eHbpxjz9lx,Spine Specialist Consultation
+sp_443,Musculoskeletal Oncologist,pc_22_-_ImbDkW39OPH7482yh,Musculoskeletal Oncology Consultation
+sp_444,Selective Pathologist,pc_wVlmOrTNfkmvFvOmnjAyOh,Pathology Consultation
+sp_445,Bioidentical Hormone Doctor,pc_5M7-z7TYg0iaStgvxqTgGR,Hormonal Imbalance
+sp_446,Acute Care Nurse Practitioner (Pediatric),pc_4uXOtI3lNk2e5LxcP5XVdR,Pediatric Illness
+sp_447,Gerontology Nurse Practitioner,pc_6jJAiz4-uk6rntuMj1TCtB,Geriatric Medicine Consultation
+sp_448,Dermatology Nurse Practitioner,pc_-maCOVIWgUGq7_BH1h5nVB,Dermatology Consultation
+sp_449,Neonatal Nurse Practitioner,pc_OX06Jzctw0GRTnfWlqZ81h,Low Birth Weight
+sp_450,Oncology Nurse Practitioner (Adult / Gerontology),pc_bc3HWERQ-kyGCtLFshm1iR,Oncology Consultation
+sp_451,Oncology Nurse Practitioner (Pediatric),pc_ZP-jRJzduEOcBdpg9MSZFR,Pediatric Oncology Consultation
+sp_454,Movement Disorder Specialist,pc_5_NU9DUBkUmKLekauSqlFh,Movement Disorder Consultation
+sp_455,Neuropsychologist,pc_TcRaKUwbEUaayhPqISah3h,Neuropsychology Evaluation
+sp_456,Speech-Language Pathologist,pc_FA92fulbYUerRfXtkLX90R,Language / Speech Problems
+sp_457,Diabetes Educator,pc_e0SQHvMkB0uZvf1v5n5q5h,Diabetes Self-Care
+sp_465,Registered Nurse,pc_FRO-18leckytNKtruw5dLR,Illness
+sp_466,Clinical Nurse Specialist,pc_FRO-18leckytNKtruw5dLR,Illness
+sp_467,Dental Hygienist,pc_TlZW-r06U0W3pCsIGtSI5B,Dental Consultation
+sp_468,Genetic Counselor,pc_bjK3OKQPUUOIX1tYJGkktx,Genetics Consultation
+sp_469,Obstetrician,pc_c8fYzXMqDEmb9Or5hxSzLh,Prenatal Care
+sp_470,Wound Care Specialist,pc_9JSo02c7gEWVGc6nf887eh,Wound Care
+sp_471,Med-Ped Physician,pc_zZWhkaURvEGlZpSimNILaB,General Consultation
+sp_476,Hospitalist,pc_p1KdCTTzuU6A04ZjEt837x,Hospital Visit
+sp_477,Thoracic Surgeon,pc_v1tsiwqGIEW2Nk6cjfAI3B,Thoracic Surgery Consultation
+sp_478,Hand Therapist,pc_2kpeO1jEx0CndpK0iEIUWh,Hand Therapy Consultation
+sp_485,Cardiovascular Surgeon,pc_SEnuZwkgcUira7anLPcPMB,Cardiovascular Surgery Consultation
+sp_486,Dental Sleep Specialist,pc_MSXtZmZJp02XBQbwsYVntR,Dental Sleep Specialist Consultation
+sp_487,OB-GYN - Resident,pc_f42H5oSQ8kGDEh_gSl5PTB,OB-GYN Consultation
+sp_488,Internist - Resident,pc_FRO-18leckytNKtruw5dLR,Illness
+sp_489,Family Physician - Resident,pc_FRO-18leckytNKtruw5dLR,Illness
+sp_507,Pediatric Neuropsychologist,pc_Q4Y1mPN34kmqS7x9Zqu5hx,Developmental Pediatric Consultation
+sp_508,Pediatrician - Resident,pc_z-XC40xg6Uq61dk7tWXPUB,Pediatric Consultation
+sp_509,Behavior Analyst,pc_DdmwjZeVUUm_QrprbFqrRB,Behavior Analyst Consultation
+sp_510,COVID-19 Vaccination Facility,pc_m459Tgq50kGv-faPIAb_3h,COVID-19 Vaccine - Initial Dose
+sp_511,Spine Surgeon,pc_XbXd6pGmFUmodydiM0ieXB,Spinal Cord Surgery Consultation
+sp_512,COVID-19 Testing Facility,pc_8PF7JFPgy0Gb3VEOpKRYdB,COVID-19 Testing
+sp_513,Urgent Care Clinic,pc_1-HljH_mZEWMhEPwa8beER,Urgent Care Consultation
+sp_514,Monkeypox Vaccination Facility,pc_7va12KVcM0eR4MlsHvB2cx,Monkeypox Vaccine - Initial Dose
+sp_515,Flu Vaccination Facility,pc_aDuGOQitX06bLh4D3p1-Ch,Flu Shot
+sp_516,Lactation Consultant,pc_Von7tYRCZEaHKIBBi9Xqnx,Lactation Consultation
+sp_517,Nurse Practitioner (Allergy),pc_fgebPJsoZ0OEw98hapBL5x,Allergy Consultation
+sp_518,Physician Assistant (Dermatology),pc_-maCOVIWgUGq7_BH1h5nVB,Dermatology Consultation
+sp_519,Nurse Practitioner (Cardiology),pc_Vljnj0Fxrkq-bfZx5NuFVB,"Cardiology Consultation "
+sp_520,Physician Assistant (OB-GYN),pc_jL57dJbLT0y5AGae2izsSR,Annual Pap Smear / GYN Exam
+sp_521,Physician Assistant (Endocrinology),pc_PpYZiRxIFECE0hJF-sfPeh,Endocrinology Consultation
+sp_522,Nurse Practitioner (Dermatology),pc_-maCOVIWgUGq7_BH1h5nVB,Dermatology Consultation
+sp_523,Nurse Practitioner (OB-GYN),pc_jL57dJbLT0y5AGae2izsSR,Annual Pap Smear / GYN Exam
+sp_524,Nurse Practitioner (ENT),pc_6OZ_tCH8E0ipVtz40nv4gx,ENT Consultation
+sp_525,Nurse Practitioner (Gastroenterology),pc_j0mh3-I3QEawzG6h08xrlR,Gastroenterology Consultation
+sp_526,Nurse Practitioner (Pain Management),pc_Wc5AAEjb8UKUK-ChS-hgHh,Pain Management Consultation
+sp_527,Nurse Practitioner (Urology),pc_DTxKUMQzPUSL5IqGVcDMhx,Urology Consultation
+sp_528,Physician Assistant (ENT),pc_6OZ_tCH8E0ipVtz40nv4gx,ENT Consultation
+sp_529,Nurse Practitioner (Podiatry),pc_dLx_aTKEDUyzsFch0FRmpx,Foot Consultation
+sp_530,Nurse Practitioner (Vascular Surgery),pc_AF2As9jDAUyGMlPDE6MtSB,Varicose Vein Treatment
+sp_531,Nurse Practitioner (Psychiatry),pc_mLdGog6Fwkev_8amkyM4uB,Psychiatry Consultation
+sp_532,Physician Assistant (Allergy),pc_fgebPJsoZ0OEw98hapBL5x,Allergy Consultation
+sp_533,Nurse Practitioner (Sleep Medicine),pc_ONiL7KsfL02_hvkt5m3PkR,Sleep Problems
+sp_534,Physician Assistant (Gastroenterology),pc_j0mh3-I3QEawzG6h08xrlR,Gastroenterology Consultation
+sp_535,Physician Assistant (Nutrition),pc_BxZvVM8JOEyzUXOcWDKzWx,Weight Loss Consultation
+sp_536,Physician Assistant (Breast Surgery),pc_lh122SO-80mQPSc6q1ZiPx,Breast Surgery Consultation
+sp_537,Physician Assistant (Cardiology),pc_Vljnj0Fxrkq-bfZx5NuFVB,"Cardiology Consultation "
+sp_538,Physician Assistant (Vascular Surgery),pc_AF2As9jDAUyGMlPDE6MtSB,Varicose Vein Treatment
+sp_539,Physician Assistant (Orthopedics),pc_T1T3MOA0kUuE201i1ZfIWR,Orthopedic Consultation
+sp_540,Physician Assistant (Pain Management),pc_Wc5AAEjb8UKUK-ChS-hgHh,Pain Management Consultation
+sp_541,Physician Assistant (Psychiatry),pc_mLdGog6Fwkev_8amkyM4uB,Psychiatry Consultation
+sp_542,Physician Assistant (Pulmonology),pc_MmupBi07Wk26y4j6LCNcGB,Pulmonology Consultation
+sp_543,Physician Assistant (Sleep Medicine),pc_ONiL7KsfL02_hvkt5m3PkR,Sleep Problems
+sp_544,Physician Assistant (Urology),pc_DTxKUMQzPUSL5IqGVcDMhx,Urology Consultation
+sp_545,Physician Assistant (Rheumatology),pc_BKnsAepKBkGG_Zine11pdB,Arthritis
+sp_546,Nurse Practitioner (Neurology),pc_QFRp0PMZ9ku7QkeT0F8O5h,Neurology Consultation
+sp_547,Physician Assistant (Psychology),pc_rIYw8hp_3Eed1R1-e2iydh,Psychotherapy
+sp_548,Nurse Practitioner (Oncology),pc_bc3HWERQ-kyGCtLFshm1iR,Oncology Consultation
+sp_549,Physician Assistant (Pediatrics),pc_z-XC40xg6Uq61dk7tWXPUB,Pediatric Consultation
+sp_550,Nurse Practitioner (Orthopedics),pc_T1T3MOA0kUuE201i1ZfIWR,Orthopedic Consultation
+sp_551,Physician Assistant (Neurosurgery),pc_cy3425zVYEGm3N2I6xwoFR,Neurosurgery Consultation
+sp_552,Nurse Practitioner (Pediatrics),pc_z-XC40xg6Uq61dk7tWXPUB,Pediatric Consultation
+sp_553,Physician Assistant (Neurology),pc_QFRp0PMZ9ku7QkeT0F8O5h,Neurology Consultation
+sp_554,Nurse Practitioner (Psychology),pc_rIYw8hp_3Eed1R1-e2iydh,Psychotherapy
+sp_555,Nurse Practitioner (Rheumatology),pc_BKnsAepKBkGG_Zine11pdB,Arthritis
+sp_556,Nurse Practitioner (Hepatology),pc_R5KIz5GsH0WvR9yWUTueaB,Hepatitis
+sp_557,Nurse Practitioner (Chiropractic),pc_ScjCEdje7U-bsLzXVK-QSh,Chiropractic Consultation
+sp_558,Nurse Practitioner (Pulmonology),pc_MmupBi07Wk26y4j6LCNcGB,Pulmonology Consultation
+sp_559,Nurse Practitioner (Psychotherapy),pc_VkPF8dBXGkuHLA3Pwrm_Qh,Psychotherapy Intake / Initial Visit
+sp_560,Immediate Care Clinic,pc_FRO-18leckytNKtruw5dLR,Illness
+sp_561,Orthopedic Immediate Care Clinic,pc_T1T3MOA0kUuE201i1ZfIWR,Orthopedic Consultation
+sp_562,Pediatric Immediate Care Clinic,pc_z-XC40xg6Uq61dk7tWXPUB,Pediatric Consultation
+sp_563,Retail Clinic,pc_zZWhkaURvEGlZpSimNILaB,General Consultation
+sp_564,Aesthetician / Esthetician,pc_6yp6G9Mf0UCmN88I7ULflh,Aesthetician / Esthetician Consultation
+sp_565,Nurse Injector,pc_WxicKn6KqEm8pq6wg-gnuh,Botox Treatment
+sp_566,Mammography Facility,pc_Xx6uzo8IU0WCsWaf5GxRmh,Screening Mammogram (No Breast Cancer Symptoms)
+sp_567,X-Ray Facility,pc_14kCx1-3wUyHEdJ0ITyIUR,X-ray
+sp_568,CT Scan Facility,pc_4T2_erOyZ0-zOVJaoicUkh,"CT Scan "
+sp_569,MRI Facility,pc_auNUI1YAsES0Tqkz7cc6lR,MRI Scan
+sp_570,Ultrasound Facility,pc_JdVDnHPhTEOoatEjtM4ZzR,Ultrasound Scan
