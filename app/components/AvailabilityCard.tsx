@@ -24,13 +24,12 @@ const AvailabilityCard: React.FC<AvailabilityCardProps> = ({
 
   return (
     <div
-      className={`flex flex-col rounded-lg ${
+      className={`flex flex-col rounded-lg p-2.5 min-w-max ${
         availabilityTimeslotsForDate > 0
           ? "bg-yellow-200 hover:bg-blue-200"
           : "bg-gray-200"
       } `}
       key={date.toString()}
-      style={{ padding: "10px" }}
     >
       <div>
         <p>{date.toLocaleDateString("en-US", { weekday: "short" })}</p>

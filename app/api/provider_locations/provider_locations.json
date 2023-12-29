@@ -42,6 +42,105 @@
         "practice": {
           "practice_name": "ABC Medical Group"
         }
+      },
+      {
+        "provider_location_id": "pr_xyz123-abc456_def7890|lo_xyz123-abc456_def7890",
+        "provider_location_type": "virtual_provider",
+        "accepts_patient_insurance": "accepted",
+        "first_availability_date_in_provider_local_time": "2022-08-20",
+        "provider": {
+          "npi": "0987654321",
+          "first_name": "Jane",
+          "last_name": "Smith",
+          "title": "DO",
+          "full_name": "Jane Smith, DO",
+          "gender_identity": "Female",
+          "specialties": ["Dermatologist"]
+        },
+        "location": {
+          "address1": "456 Elm St",
+          "address2": "",
+          "city": "Los Angeles",
+          "state": "CA",
+          "zip_code": "90001",
+          "latitude": 34.0522,
+          "longitude": -118.2437,
+          "location_name": "Elm Street Clinic",
+          "distance_to_patient_mi": 5.0
+        },
+        "virtual_location": {
+          "state": "CA",
+          "location_name": "Virtual Clinic"
+        },
+        "practice": {
+          "practice_name": "XYZ Medical Group"
+        }
+      },
+      {
+        "provider_location_id": "pr_123abc-456def_789xyz|lo_123abc-456def_789xyz",
+        "provider_location_type": "in_person_provider",
+        "accepts_patient_insurance": "accepted",
+        "first_availability_date_in_provider_local_time": "2022-08-18",
+        "provider": {
+          "npi": "9876543210",
+          "first_name": "Sarah",
+          "last_name": "Johnson",
+          "title": "MD",
+          "full_name": "Sarah Johnson, MD",
+          "gender_identity": "Female",
+          "specialties": ["Pediatrician"]
+        },
+        "location": {
+          "address1": "789 Oak St",
+          "address2": "",
+          "city": "Chicago",
+          "state": "IL",
+          "zip_code": "60601",
+          "latitude": 41.8781,
+          "longitude": -87.6298,
+          "location_name": "Oak Street Clinic",
+          "distance_to_patient_mi": 3.0
+        },
+        "virtual_location": {
+          "state": "IL",
+          "location_name": "Virtual Clinic"
+        },
+        "practice": {
+          "practice_name": "123 Medical Group"
+        }
+      },
+      {
+        "provider_location_id": "pr_qwe123-asd456_zxc789|lo_qwe123-asd456_zxc789",
+        "provider_location_type": "in_person_provider",
+        "accepts_patient_insurance": "accepted",
+        "first_availability_date_in_provider_local_time": "2022-08-25",
+        "provider": {
+          "npi": "0123456789",
+          "first_name": "Michael",
+          "last_name": "Brown",
+          "title": "MD",
+          "full_name": "Michael Brown, MD",
+          "gender_identity": "Male",
+          "specialties": ["Orthopedic Surgeon"]
+        },
+        "location": {
+          "address1": "789 Maple St",
+          "address2": "",
+          "city": "San Francisco",
+          "state": "CA",
+          "zip_code": "94101",
+          "latitude": 37.7749,
+          "longitude": -122.4194,
+          "location_name": "Maple Street Clinic",
+          "distance_to_patient_mi": 10.0
+        },
+        "virtual_location": {
+          "state": "CA",
+          "location_name": "Virtual Clinic"
+        },
+        "practice": {
+          "practice_name": "QWE Medical Group"
+        }
       }
     ]
   }

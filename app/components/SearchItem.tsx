@@ -31,10 +31,7 @@ const SearchItem: React.FC<
   });
 
   return (
-    <div
-      className="search-item full-width"
-      style={{ display: "flex", alignItems: "center", gap: "1rem" }}
-    >
+    <div className="search-item full-width flex items-center gap-4 border-t p-4">
       <Image
         src={photoUrl}
         alt={fullName}
@@ -42,7 +39,7 @@ const SearchItem: React.FC<
         width={100}
         height={100}
       />
-      <div className="search-item__details" style={{ marginLeft: "1rem" }}>
+      <div className="search-item__details w-64 ml-4">
         <h1 className="font-bold text-2xl">{fullName}</h1>
         <p className="search-item__specialty text-md pb-2">{specialties[0]}</p>
         <p className="search-item__location text-lg">{locationName}</p>
@@ -63,15 +60,7 @@ const SearchItem: React.FC<
           </address>
         </div>
       </div>
-      <div
-        style={{
-          marginLeft: "1rem",
-          marginTop: "0.5rem",
-          display: "grid",
-          gridTemplateColumns: "repeat(7, 1fr)",
-          gap: "1rem",
-        }}
-      >
+      <div className="ml-4 mt-2 grid grid-cols-7 gap-4">
         {dates.map((date) => (
           <AvailabilityCard
             key={date.toString()}
