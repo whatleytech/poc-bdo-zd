@@ -16,7 +16,9 @@ export async function GET(request: NextRequest) {
     })
     .filter((provider_location) => {
       if (!specialty) return true;
-      return provider_location.provider.specialties.includes(specialty);
+      return provider_location.provider.specialties
+        .map((s) => s.toLowerCase())
+        .includes(specialty.toLowerCase());
     });
 
   return Response.json(result);

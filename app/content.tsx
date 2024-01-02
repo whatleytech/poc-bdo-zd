@@ -1,65 +1,37 @@
-"use client";
-
-import React, { useState } from "react";
+import React from "react";
 import SearchBar from "./components/SearchBar";
 import SearchItem from "./components/SearchItem";
-import {
-  Availability,
-  AvailabilityResponse,
-  Provider,
-  ProviderLocation,
-  ProviderLocationsResponse,
-  Specialties,
-} from "./types";
+import { AvailabilityResponse, ProviderLocation, Specialties } from "./types";
 
 interface Props {
   specialties: Specialties;
+  searchResults: ProviderLocation[];
+  providerAvailability: AvailabilityResponse;
 }
 
-const PageContent: React.FC<Props> = ({ specialties }) => {
-  const [searchResults, setSearchResults] = useState<ProviderLocation[]>([]);
-  const [providerAvailability, setProviderAvailability] =
-    useState<AvailabilityResponse>();
-
-  const handleSearch = (zip: string, specialty: string) => {
-    const providerLocationsUrl = new URL(
-      "/api/provider_locations",
-      window.location.origin
-    );
-    if (zip) providerLocationsUrl.searchParams.append("zip", zip);
-    if (specialty)
-      providerLocationsUrl.searchParams.append("specialty", specialty);
-    const providerLocationsAvailabilityUrl = new URL(
-      "/api/provider_locations/availability",
-      window.location.origin
-    );
-
-    fetch(providerLocationsUrl.toString())
-      .then((response) => response.json())
-      .then((data) => setSearchResults(data))
-      .catch((error) => console.error(error));
-
-    fetch(providerLocationsAvailabilityUrl.toString())
-      .then((response) => response.json())
-      .then((data) => setProviderAvailability(data))
-      .catch((error) => console.error(error));
-  };
+const PageContent: React.FC<Props> = ({
+  searchResults,
+  providerAvailability,
+  specialties,
+}) => {
+  const getAvailabilityTimeslots = (providerLocationId: string) =>
+    providerAvailability?.data?.find(
+      ({ provider_location_id: availabilityLocationId }) =>
+        availabilityLocationId === providerLocationId
+    )?.timeslots ?? [];
 
   return (
     <div className="z-10 max-w-5xl w-full items-center justify-center font-mono text-sm lg:flex flex-col">
-      <SearchBar onSearch={handleSearch} specialties={specialties} />
+      <SearchBar specialties={specialties} />
       <h1 className="font-bold text-lg">{searchResults.length} providers</h1>
       {searchResults?.map(({ provider, location, provider_location_id }) => (
         <div className="w-full flex pt-8" key={provider.full_name}>
           <SearchItem
             provider={provider}
             location={location}
-            availabilityTimeslots={
-              providerAvailability?.data?.find(
-                ({ provider_location_id: availabilityLocationId }) =>
-                  availabilityLocationId === provider_location_id
-              )?.timeslots ?? []
-            }
+            availabilityTimeslots={getAvailabilityTimeslots(
+              provider_location_id
+            )}
           />
         </div>
       ))}

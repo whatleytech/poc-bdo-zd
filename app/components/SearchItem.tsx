@@ -1,13 +1,15 @@
 import React from "react";
 import Image from "next/image";
-import { Availability, ProviderLocation, Timeslot } from "../types";
+import { ProviderLocation, Timeslot } from "../types";
 import AvailabilityCard from "./AvailabilityCard";
 
-const SearchItem: React.FC<
-  Pick<ProviderLocation, "provider" | "location"> & {
-    availabilityTimeslots: Timeslot[];
-  }
-> = ({
+interface SearchItemProps {
+  provider: ProviderLocation["provider"];
+  location: ProviderLocation["location"];
+  availabilityTimeslots: Timeslot[];
+}
+
+const SearchItem: React.FC<SearchItemProps> = ({
   provider: {
     gender_identity: genderIdentity,
     full_name: fullName,
