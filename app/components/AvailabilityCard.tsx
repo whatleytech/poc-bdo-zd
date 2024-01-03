@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Timeslot } from "../types";
+import { ModalContext } from "../providers/modal-context";
 
 interface AvailabilityCardProps {
   date: Date;
@@ -10,6 +11,8 @@ const AvailabilityCard: React.FC<AvailabilityCardProps> = ({
   date,
   availabilityTimeslots,
 }) => {
+  const { openModal } = useContext(ModalContext);
+
   function isSameDay(date1: Date, date2: Date) {
     return (
       date1.getFullYear() === date2.getFullYear() &&
@@ -24,6 +27,9 @@ const AvailabilityCard: React.FC<AvailabilityCardProps> = ({
 
   return (
     <div
+      onClick={() => {
+        if (availabilityTimeslotsForDate > 0) openModal();
+      }}
       className={`flex flex-col rounded-lg p-2.5 min-w-max ${
         availabilityTimeslotsForDate > 0
           ? "bg-yellow-200 hover:bg-blue-200 cursor-pointer"

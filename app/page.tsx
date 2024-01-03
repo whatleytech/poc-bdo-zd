@@ -1,4 +1,5 @@
 import PageContent from "./content";
+import { ModalProvider } from "./providers/modal-context";
 import { Specialties } from "./types";
 
 async function getSpecialties(): Promise<Specialties> {
@@ -55,11 +56,13 @@ export default async function Home({
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <PageContent
-        specialties={specialties}
-        searchResults={searchResults}
-        providerAvailability={providerAvailability}
-      />
+      <ModalProvider>
+        <PageContent
+          specialties={specialties}
+          searchResults={searchResults}
+          providerAvailability={providerAvailability}
+        />
+      </ModalProvider>
     </main>
   );
 }
