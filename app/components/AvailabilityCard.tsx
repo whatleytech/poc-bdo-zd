@@ -5,11 +5,13 @@ import { ModalContext } from "../providers/modal-context";
 interface AvailabilityCardProps {
   date: Date;
   availabilityTimeslots: Timeslot[];
+  npi: string;
 }
 
 const AvailabilityCard: React.FC<AvailabilityCardProps> = ({
   date,
   availabilityTimeslots,
+  npi,
 }) => {
   const { openModal } = useContext(ModalContext);
 
@@ -28,7 +30,7 @@ const AvailabilityCard: React.FC<AvailabilityCardProps> = ({
   return (
     <div
       onClick={() => {
-        if (availabilityTimeslotsForDate > 0) openModal();
+        if (availabilityTimeslotsForDate > 0) openModal(npi);
       }}
       className={`flex flex-col rounded-lg p-2.5 min-w-max ${
         availabilityTimeslotsForDate > 0
