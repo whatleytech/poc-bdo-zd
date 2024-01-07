@@ -2,6 +2,7 @@ import React from "react";
 import { ProviderLocation, Timeslot } from "../types";
 import AvailabilityCard from "./AvailabilityCard";
 import ProviderHero from "./ProviderHero";
+import { twoWeeks } from "../helpers/two-weeks";
 
 interface SearchItemProps {
   provider: ProviderLocation["provider"];
@@ -25,12 +26,6 @@ const SearchItem: React.FC<SearchItemProps> = ({
   },
   availabilityTimeslots: availabilityTimeslots,
 }) => {
-  const dates = Array.from({ length: 14 }, (_, i) => {
-    const date = new Date(2023, 11, 25);
-    date.setDate(date.getDate() + i);
-    return date; // returns date in 'YYYY-MM-DD' format
-  });
-
   return (
     <div className="search-item full-width flex items-center border-t p-4">
       <ProviderHero
@@ -44,7 +39,7 @@ const SearchItem: React.FC<SearchItemProps> = ({
         genderIdentity={genderIdentity}
       />
       <div className="ml-4 mt-2 grid grid-cols-7 gap-4">
-        {dates.map((date) => (
+        {twoWeeks().map((date) => (
           <AvailabilityCard
             key={date.toString()}
             date={date}
