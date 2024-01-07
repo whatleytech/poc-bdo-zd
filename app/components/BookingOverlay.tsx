@@ -24,13 +24,26 @@ const BookingOverlay: React.FC<BookingOverlayProps> = ({
 }) => {
   const { closeModal } = useContext(ModalContext);
   return (
-    <div
-      className="border-solid border-2 z-99 sticky inset-1/2 top-0 bg-white h-full flex items-center justify-center center flex-col"
-      onClick={closeModal}
-    >
-      <h1>{`Book your appointment with ${fullName}`}</h1>
+    <div className="border-solid border-2 z-99 fixed bottom-1/2 start-1/3 bg-white h-full flex flex-col p-6 w-1/3 h-fit">
+      <div className="px-4">
+        <button onClick={closeModal}>
+          <svg
+            role="img"
+            aria-hidden="true"
+            height="24"
+            viewBox="0 0 12 20"
+            fill="none"
+          >
+            <title>close icon</title>
+            <path
+              d="m11.667 5.342-1.175-1.175-4.659 4.658-4.658-4.658L0 5.342 4.658 10 0 14.658l1.175 1.175 4.658-4.658 4.659 4.658 1.175-1.175L7.008 10l4.659-4.658Z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </button>
+      </div>
+      <h1 className="text-2xl font-bold p-4">{`Book with ${fullName}`}</h1>
       <ProviderHero
-        fullName={fullName}
         specialties={specialties}
         locationName={locationName}
         address={address}

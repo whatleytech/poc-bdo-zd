@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 interface ProviderHeroProps {
-  fullName: string;
+  fullName?: string;
   specialties: string[];
   locationName: string;
   address: string;
@@ -26,18 +26,20 @@ const ProviderHero: React.FC<ProviderHeroProps> = ({
 
   return (
     <div className="flex flex-row full-width">
-      <Image
-        src={photoUrl}
-        alt={fullName}
-        className="search-item__photo"
-        width={100}
-        height={100}
-      />
-      <div className="search-item__details w-64 ml-4">
-        <h1 className="font-bold text-2xl">{fullName}</h1>
-        <p className="search-item__specialty text-md pb-2">{specialties[0]}</p>
-        <p className="search-item__location text-lg">{locationName}</p>
-        <div className="flex" style={{ marginTop: "0.5rem" }}>
+      <div className="flex items-center justify-center">
+        <Image
+          src={photoUrl}
+          alt={fullName ?? "Provider"}
+          className="rounded-full"
+          width={100}
+          height={100}
+        />
+      </div>
+      <div className="w-64 ml-4 ">
+        {fullName && <h1 className="font-bold text-2xl">{fullName}</h1>}
+        <p className={`text-md ${fullName ? "pb-2" : ""}`}>{specialties[0]}</p>
+        <p className="text-lg">{locationName}</p>
+        <div className={`flex ${fullName ? "mt-1" : ""}`}>
           <div className="pr-2">
             <Image
               src="/address_icon.jpeg"
