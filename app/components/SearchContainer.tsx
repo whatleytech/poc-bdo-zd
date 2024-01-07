@@ -20,7 +20,7 @@ const SearchContainer: React.FC<Props> = ({
 
   return (
     <div
-      className={`z-10 max-w-5xl w-full items-center justify-center font-mono text-sm lg:flex flex-col ${
+      className={`z-10 max-w-5xl w-full items-center justify-center text-sm lg:flex flex-col ${
         isModalOpen ? "blur-[2px]" : ""
       }`}
     >
