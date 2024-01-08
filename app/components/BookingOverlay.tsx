@@ -1,11 +1,13 @@
 import { useContext } from "react";
 import { ModalContext } from "../providers/modal-context";
 import ProviderHero from "./ProviderHero";
-import { ProviderLocation } from "../types";
+import { ProviderLocation, Timeslot } from "../types";
+import { isSameDay } from "../helpers/is-same-day";
 
 interface BookingOverlayProps {
   provider: ProviderLocation["provider"];
   location: ProviderLocation["location"];
+  availabilityTimeslots: Timeslot[];
 }
 
 const BookingOverlay: React.FC<BookingOverlayProps> = ({
@@ -21,8 +23,9 @@ const BookingOverlay: React.FC<BookingOverlayProps> = ({
     state,
     zip_code: zip,
   },
+  availabilityTimeslots,
 }) => {
-  const { closeModal } = useContext(ModalContext);
+  const { closeModal, date } = useContext(ModalContext);
   return (
     <div className="border-solid border-2 z-99 fixed top-1/4 start-1/3 bg-white flex flex-col p-6 w-1/3 h-fit">
       <div>
@@ -58,8 +61,25 @@ const BookingOverlay: React.FC<BookingOverlayProps> = ({
           <h2 className="text-sm font-light">Click a time to book for free.</h2>
         </div>
         <div>
-          <div className="mb-2">Fri, Jan 4</div>
-          <div className="bg-yellow-300 w-fit p-2">12:30 pm</div>
+          <div className="mb-2">
+            {date.toLocaleDateString("en-US", {
+              weekday: "short",
+              month: "short",
+              day: "numeric",
+            })}
+          </div>
+          <div className="flex flex-row flex-wrap">
+            {availabilityTimeslots
+              .filter(({ start_time }) => isSameDay(new Date(start_time), date))
+              .map(({ start_time }) => (
+                <div key={start_time} className="bg-yellow-300 w-fit p-2 m-2">
+                  {new Date(start_time).toLocaleTimeString("en-US", {
+                    hour: "2-digit",
+                    minute: "2-digit",
+                  })}
+                </div>
+              ))}
+          </div>
         </div>
       </div>
     </div>

@@ -23,7 +23,7 @@ const AvailabilityCard: React.FC<AvailabilityCardProps> = ({
   return (
     <div
       onClick={() => {
-        if (availabilityTimeslotsForDate > 0) openModal(npi);
+        if (availabilityTimeslotsForDate > 0) openModal(npi, date);
       }}
       className={`flex flex-col rounded-lg p-2.5 min-w-max ${
         availabilityTimeslotsForDate > 0

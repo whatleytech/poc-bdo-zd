@@ -5,6 +5,7 @@ import { AvailabilityResponse, ProviderLocation, Specialties } from "./types";
 import { ModalContext } from "./providers/modal-context";
 import BookingOverlay from "./components/BookingOverlay";
 import SearchContainer from "./components/SearchContainer";
+import { getAvailabilityTimeslots } from "./helpers/get-availability-timeslots";
 
 interface Props {
   specialties: Specialties;
@@ -22,7 +23,11 @@ const PageContent: React.FC<Props> = ({
   const providerResults = searchResults.find(
     ({ provider }) => provider.npi === npi
   );
-  const { provider, location } = providerResults ?? {};
+  const {
+    provider,
+    location,
+    provider_location_id = "",
+  } = providerResults ?? {};
 
   return (
     <div className="relative">
@@ -32,7 +37,14 @@ const PageContent: React.FC<Props> = ({
         providerAvailability={providerAvailability}
       />
       {isModalOpen && provider && location && (
-        <BookingOverlay provider={provider} location={location} />
+        <BookingOverlay
+          provider={provider}
+          location={location}
+          availabilityTimeslots={getAvailabilityTimeslots(
+            providerAvailability,
+            provider_location_id
+          )}
+        />
       )}
     </div>
   );
