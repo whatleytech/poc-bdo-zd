@@ -24,8 +24,8 @@ const BookingOverlay: React.FC<BookingOverlayProps> = ({
 }) => {
   const { closeModal } = useContext(ModalContext);
   return (
-    <div className="border-solid border-2 z-99 fixed bottom-1/2 start-1/3 bg-white h-full flex flex-col p-6 w-1/3 h-fit">
-      <div className="px-4">
+    <div className="border-solid border-2 z-99 fixed top-1/4 start-1/3 bg-white flex flex-col p-6 w-1/3 h-fit">
+      <div>
         <button onClick={closeModal}>
           <svg
             role="img"
@@ -42,7 +42,7 @@ const BookingOverlay: React.FC<BookingOverlayProps> = ({
           </svg>
         </button>
       </div>
-      <h1 className="text-2xl font-bold p-4">{`Book with ${fullName}`}</h1>
+      <h1 className="text-2xl font-bold pt-2 pb-4">{`Book with ${fullName}`}</h1>
       <ProviderHero
         specialties={specialties}
         locationName={locationName}
@@ -52,6 +52,16 @@ const BookingOverlay: React.FC<BookingOverlayProps> = ({
         zip={zip}
         genderIdentity={genderIdentity}
       />
+      <div className="py-2">
+        <div className="py-4">
+          <h2 className="text-lg font-semibold">Available appointments</h2>
+          <h2 className="text-sm font-light">Click a time to book for free.</h2>
+        </div>
+        <div>
+          <div className="mb-2">Fri, Jan 4</div>
+          <div className="bg-yellow-300 w-fit p-2">12:30 pm</div>
+        </div>
+      </div>
     </div>
   );
 };

@@ -38,9 +38,8 @@ const ProviderHero: React.FC<ProviderHeroProps> = ({
       <div className="w-64 ml-4 ">
         {fullName && <h1 className="font-bold text-2xl">{fullName}</h1>}
         <p className={`text-md ${fullName ? "pb-2" : ""}`}>{specialties[0]}</p>
-        <p className="text-lg">{locationName}</p>
-        <div className={`flex ${fullName ? "mt-1" : ""}`}>
-          <div className="pr-2">
+        <div className={`flex ${fullName ? "mt-1" : ""} items-center`}>
+          <div className="pr-2 pb-6">
             <Image
               src="/address_icon.jpeg"
               alt="Address"
@@ -49,10 +48,9 @@ const ProviderHero: React.FC<ProviderHeroProps> = ({
             />
           </div>
           <address>
-            <p>{address}</p>
-            <p>
-              {city}, {state} {zip}
-            </p>
+            <p>{`${
+              locationName ? `${locationName} -` : ""
+            } ${address} ${city}, ${state} ${zip}`}</p>
           </address>
         </div>
       </div>
