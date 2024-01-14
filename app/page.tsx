@@ -55,7 +55,7 @@ export default async function Home({
   const providerAvailability = await getProviderAvailability();
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="py-5 px-10">
       <ModalProvider>
         <PageContent
           specialties={specialties}

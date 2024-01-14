@@ -27,7 +27,7 @@ const SearchItem: React.FC<SearchItemProps> = ({
   availabilityTimeslots: availabilityTimeslots,
 }) => {
   return (
-    <div className="search-item full-width flex items-center border-t pt-4">
+    <div className="search-item full-width h-1/3 flex flex-col items-center border-t pt-4 sm:flex-row sm:items-start">
       <ProviderHero
         fullName={fullName}
         specialties={specialties}
@@ -38,7 +38,7 @@ const SearchItem: React.FC<SearchItemProps> = ({
         zip={zip}
         genderIdentity={genderIdentity}
       />
-      <div className="ml-4 mt-2 grid grid-cols-7 gap-4">
+      <div className="md:ml-4 mt-2 md:grid md:grid-cols-7 gap-4 flex flex-col flex-wrap md:h-max h-32 overflow-x-scroll">
         {twoWeeks().map((date) => (
           <AvailabilityCard
             key={date.toString()}

@@ -20,7 +20,7 @@ const SearchContainer: React.FC<Props> = ({
 
   return (
     <div
-      className={`z-10 max-w-5xl w-full items-center justify-center text-sm lg:flex flex-col ${
+      className={`items-center text-sm flex flex-col ${
         isModalOpen ? "blur-[2px]" : ""
       }`}
     >
@@ -28,7 +28,7 @@ const SearchContainer: React.FC<Props> = ({
       <SearchBar specialties={specialties} />
       <h1 className="font-bold text-lg">{searchResults.length} providers</h1>
       {searchResults?.map(({ provider, location, provider_location_id }) => (
-        <div className="w-full flex pt-8" key={provider.npi}>
+        <div className="flex pt-8" key={provider.npi}>
           <SearchItem
             provider={provider}
             location={location}
