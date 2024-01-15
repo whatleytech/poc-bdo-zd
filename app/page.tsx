@@ -1,45 +1,39 @@
 import PageContent from "./content";
 import { ModalProvider } from "./providers/modal-context";
-import { Specialties } from "./types";
+import { ProviderLocationsResponse, Specialties } from "./types";
+import specialties from "./api/specialties/specialties.json";
+import availability from "./api/provider_locations/availability/availability.json";
+import provider_locations from "./api/provider_locations/provider_locations.json";
 
 async function getSpecialties(): Promise<Specialties> {
-  const res = await fetch(`${process.env.BASE_URL}/api/specialties`);
-  if (!res.ok) {
-    throw new Error("Failed to fetch data");
-  }
-  return res.json();
+  // Update this with fetch to Zocdoc API
+  return specialties;
 }
 
 async function getResults(
   zip?: string | string[] | null,
   specialty?: string | string[] | null
 ) {
-  const searchParams = new URLSearchParams({
-    ...(zip && { zip: zip.toString() }),
-    ...(specialty && { specialty: specialty.toString() }),
-  });
-
-  const providerLocationsUrl = `${
-    process.env.BASE_URL
-  }/api/provider_locations?${searchParams.toString()}`;
-
-  const res = await fetch(providerLocationsUrl);
-
-  if (!res.ok) {
-    throw new Error("Failed to fetch data");
-  }
-  return res.json();
+  // Update this with fetch to Zocdoc API
+  const result = (
+    provider_locations as ProviderLocationsResponse
+  ).data.provider_locations
+    .filter((provider_location) => {
+      if (!zip) return true;
+      return provider_location.location.zip_code === zip;
+    })
+    .filter((provider_location) => {
+      if (!specialty) return true;
+      return provider_location.provider.specialties
+        .map((s) => s.toLowerCase())
+        .includes((specialty as string).toLowerCase());
+    });
+  return result;
 }
 
 async function getProviderAvailability() {
-  const providerLocationsAvailabilityUrl = `${process.env.BASE_URL}/api/provider_locations/availability`;
-
-  const res = await fetch(providerLocationsAvailabilityUrl);
-
-  if (!res.ok) {
-    throw new Error("Failed to fetch data");
-  }
-  return res.json();
+  // Update this with fetch to Zocdoc API
+  return availability;
 }
 
 export default async function Home({
