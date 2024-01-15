@@ -31,7 +31,7 @@ const SearchBar: React.FC<Props> = ({ specialties }) => {
       <select
         value={selectedSpecialty}
         onChange={(event) => setSelectedSpecialty(event.target.value)}
-        className="border-2 border-gray-300 rounded-md h-10 w-5/6 md:w-auto"
+        className="border-2 border-gray-300 rounded-md h-10 w-5/6 md:w-auto bg-white"
       >
         <option key={"s0"}></option>
         {specialties
