@@ -38,7 +38,7 @@ const SearchItem: React.FC<SearchItemProps> = ({
         zip={zip}
         genderIdentity={genderIdentity}
       />
-      <div className="md:ml-4 mt-2 md:grid md:grid-cols-7 gap-4 flex flex-col flex-wrap md:h-max h-32 overflow-x-scroll">
+      <div className="md:ml-4 mt-2 md:grid md:grid-cols-7 gap-4 flex flex-col flex-wrap md:h-max h-32 w-fit overflow-x-scroll">
         {twoWeeks().map((date) => (
           <AvailabilityCard
             key={date.toString()}
