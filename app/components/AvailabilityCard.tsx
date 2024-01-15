@@ -25,7 +25,7 @@ const AvailabilityCard: React.FC<AvailabilityCardProps> = ({
       onClick={() => {
         if (availabilityTimeslotsForDate > 0) openModal(npi, date);
       }}
-      className={`flex flex-col rounded-lg p-2.5 min-w-max ${
+      className={`flex flex-col rounded-lg p-2.5 ${
         availabilityTimeslotsForDate > 0
           ? "bg-yellow-300 hover:bg-blue-200 cursor-pointer"
           : "bg-gray-200"
