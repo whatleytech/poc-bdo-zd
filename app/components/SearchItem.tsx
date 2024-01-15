@@ -27,7 +27,7 @@ const SearchItem: React.FC<SearchItemProps> = ({
   availabilityTimeslots: availabilityTimeslots,
 }) => {
   return (
-    <div className="search-item full-width h-1/3 flex flex-col items-center border-t pt-4 sm:flex-row sm:items-start">
+    <div className="search-item full-width h-1/3 flex flex-col items-center border-t pt-8 sm:flex-row sm:items-start">
       <ProviderHero
         fullName={fullName}
         specialties={specialties}
