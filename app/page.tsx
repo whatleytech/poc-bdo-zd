@@ -3,7 +3,7 @@ import { ModalProvider } from "./providers/modal-context";
 import { Specialties } from "./types";
 
 async function getSpecialties(): Promise<Specialties> {
-  const res = await fetch(`${process.env.BASE_URL}/api/specialties`);
+  const res = await fetch("http://localhost:3000/api/specialties");
   if (!res.ok) {
     throw new Error("Failed to fetch data");
   }
@@ -19,9 +19,7 @@ async function getResults(
     ...(specialty && { specialty: specialty.toString() }),
   });
 
-  const providerLocationsUrl = `${
-    process.env.BASE_URL
-  }/api/provider_locations?${searchParams.toString()}`;
+  const providerLocationsUrl = `http://localhost:3000/api/provider_locations?${searchParams.toString()}`;
 
   const res = await fetch(providerLocationsUrl);
 
@@ -32,7 +30,8 @@ async function getResults(
 }
 
 async function getProviderAvailability() {
-  const providerLocationsAvailabilityUrl = `${process.env.BASE_URL}/api/provider_locations/availability`;
+  const providerLocationsAvailabilityUrl =
+    "http://localhost:3000/api/provider_locations/availability";
 
   const res = await fetch(providerLocationsAvailabilityUrl);
 
