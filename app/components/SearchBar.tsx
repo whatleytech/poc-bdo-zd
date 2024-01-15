@@ -22,7 +22,7 @@ const SearchBar: React.FC<Props> = ({ specialties }) => {
   return (
     <div className="flex flex-col sm:flex-row items-center pb-4 gap-4">
       <input
-        className="px-3 py-2 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:shadow-outline-blue focus:border-blue-300 border-2 border-gray-300 rounded-md"
+        className="px-3 py-2 bg-white rounded-md focus:outline-none focus:shadow-outline-blue focus:border-blue-300 border-2 border-gray-300 rounded-md"
         type="search"
         placeholder="Enter a zip code"
         value={inputZip}

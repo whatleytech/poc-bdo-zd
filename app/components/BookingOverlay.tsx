@@ -27,7 +27,7 @@ const BookingOverlay: React.FC<BookingOverlayProps> = ({
 }) => {
   const { closeModal, date } = useContext(ModalContext);
   return (
-    <div className="border-solid border-2 z-99 fixed top-1/4 md:start-1/4 start-0 bg-white flex flex-col p-6 md:w-1/2 h-fit ">
+    <div className="border-solid border-2 z-99 fixed md:top-32 top-0 md:start-1/3 start-0 bg-white flex flex-col p-8 md:w-1/3 w-full h-full md:h-fit">
       <div>
         <button onClick={closeModal}>
           <svg
