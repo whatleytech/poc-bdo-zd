@@ -28,7 +28,7 @@ const SearchContainer: React.FC<Props> = ({
       <SearchBar specialties={specialties} />
       <h1 className="font-bold text-lg">{searchResults.length} providers</h1>
       {searchResults?.map(({ provider, location, provider_location_id }) => (
-        <div className="flex pt-8" key={provider.npi}>
+        <div className="flex pt-8 md:w-fit w-full" key={provider.npi}>
           <SearchItem
             provider={provider}
             location={location}
